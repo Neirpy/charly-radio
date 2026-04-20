@@ -1,7 +1,6 @@
 // On simule ton JSON généré par l'IA
 const playlist = [
-    { id: "s1At5s0YLSs", duree: 232 }, // Musique 1
-    { id: "JINGLE_ID", duree: 15 },    // Jingle
+    { id: "s1At5s0YLSs", duree: 148 }, // Musique 1
     { id: "fJ9rUzIMcZQ", duree: 191 }  // Musique 2
 ];
 
