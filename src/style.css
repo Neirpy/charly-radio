@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+:root {
+    /* Couleurs CMJN ultra saturées typiques Riso */
+    --riso-pink: #ff48b0;
+    --riso-blue: #00a4e4;
+    --riso-yellow: #fff000;
+    --bg-paper: #f4f1ea; /* Couleur papier crème */
+    --text-ink: #1a1a1a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: var(--bg-paper);
+    color: var(--text-ink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Le grain de papier Risograph */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; width: 100vw; height: 100vh;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+    z-index: 10;
+}
+
+#ecran-accueil, #lecteur-container {
+    text-align: center;
+    z-index: 2;
+    padding: 3rem;
+    border: 4px solid var(--text-ink);
+    background: var(--bg-paper);
+    /* L'effet de décalage d'impression */
+    box-shadow: 8px 8px 0px var(--riso-pink), -8px -8px 0px var(--riso-blue);
+    mix-blend-mode: multiply;
+    max-width: 700px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    /* Ombre jaune décalée */
+    text-shadow: 4px 4px 0px var(--riso-yellow);
+}
+
+/* Le gros bouton d'action */
+button {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-ink);
+    background-color: var(--riso-yellow);
+    border: 3px solid var(--text-ink);
+    padding: 15px 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    box-shadow: 6px 6px 0px var(--text-ink);
+    transition: all 0.1s ease;
+    position: relative;
+}
+
+button:hover {
+    background-color: var(--riso-pink);
+    color: var(--bg-paper);
+}
+
+/* L'effet bouton physique qu'on enfonce */
+button:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0px var(--text-ink);
+}
+
+#lecteur-youtube {
+    border: 4px solid var(--text-ink);
+    box-shadow: 8px 8px 0px var(--riso-yellow);
+    background: var(--text-ink); /* Cache le fond avant chargement */
+}
