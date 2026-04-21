@@ -1,0 +1,66 @@
+[
+    {
+        "duree": 226,
+        "id": "r7-A9NqUjRI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "24K Magic",
+        "start_minute": 672.25,
+        "heure_cible": "11:12"
+    },
+    {
+        "duree": 294,
+        "id": "Kr4EQDVETuA",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Billie Jean",
+        "start_minute": 676.0,
+        "heure_cible": "11:16"
+    },
+    {
+        "duree": 242,
+        "id": "N0TA8xXWSqE",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Smooth Operator - TikTok Remix",
+        "start_minute": 680.875,
+        "heure_cible": "11:20"
+    },
+    {
+        "duree": 175,
+        "id": "kIft-LUHHVA",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Espresso",
+        "start_minute": 684.875,
+        "heure_cible": "11:24"
+    },
+    {
+        "duree": 173,
+        "id": "O_n_0whrgWc",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "WO:OO",
+        "start_minute": 687.75,
+        "heure_cible": "11:27"
+    },
+    {
+        "duree": 2055,
+        "id": "1UOVLdPslmo",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "titre": "STARBLASTER /// 3am Funk Dance Party",
+        "start_minute": 690.625,
+        "heure_cible": "11:30"
+    },
+    {
+        "duree": 259,
+        "id": "zikd5BZycZQ",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Do It",
+        "start_minute": 724.875,
+        "heure_cible": "12:04"
+    },
+    {
+        "duree": 255,
+        "id": "bgmMpT_m-t4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Part-Time Lover",
+        "start_minute": 729.125,
+        "heure_cible": "12:09"
+    }
+]
