@@ -781,5 +781,391 @@
                 "titre": "1979"
             }
         ]
+    },
+    "CHARLY-TROPIQUES": {
+        "url": "https://www.youtube.com/watch?v=ZZ99I2Gw-V0&list=PLeDd6ur4HzTjP4yXRHj9hxfI_BCLMKQJY",
+        "tracks": [
+            {
+                "duree": 157,
+                "id": "ZZ99I2Gw-V0",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Passionfruit"
+            },
+            {
+                "duree": 265,
+                "id": "AW1ssZ5w79k",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Marechià"
+            },
+            {
+                "duree": 412,
+                "id": "e6vOwy_1kwQ",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Kryé Mwen (Patchworks Remix)"
+            },
+            {
+                "duree": 213,
+                "id": "xXWqZx0wuiM",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "El Niño (Mixed by Chris Goss)"
+            },
+            {
+                "duree": 571,
+                "id": "MU1lAkDJwU4",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "You No Fit Touch Am (Medlar Remix)"
+            },
+            {
+                "duree": 223,
+                "id": "DbN5KsemhA0",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Stranger"
+            },
+            {
+                "duree": 200,
+                "id": "3xSb5Pm-ws8",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Lihue"
+            },
+            {
+                "duree": 234,
+                "id": "ItyyFwwRWaQ",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "Groove ma poule"
+            },
+            {
+                "duree": 170,
+                "id": "I6UA589JoKs",
+                "playlist": "CHARLY-TROPIQUES",
+                "titre": "The Traveller"
+            }
+        ]
+    },
+    "CHARLY-RUSH": {
+        "url": "https://www.youtube.com/watch?v=jioq9wc57fE&list=PLeDd6ur4HzTgUURhsWCoA7UbEWjq0R-jz",
+        "tracks": [
+            {
+                "duree": 123,
+                "id": "jioq9wc57fE",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Violet"
+            },
+            {
+                "duree": 109,
+                "id": "gTw22MVAk1E",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Chaos at the Spaceship"
+            },
+            {
+                "duree": 280,
+                "id": "CnJsQQWrmiM",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Sneaky Driver"
+            },
+            {
+                "duree": 209,
+                "id": "LnOts74hPhU",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Dance!"
+            },
+            {
+                "duree": 213,
+                "id": "m9SMT5ipbxk",
+                "playlist": "CHARLY-RUSH",
+                "titre": "アイドル"
+            },
+            {
+                "duree": 236,
+                "id": "_B943OFlHVs",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Right Here, Right Now"
+            },
+            {
+                "duree": 220,
+                "id": "Ojj8mR8PEbw",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Travelling Without Moving (Remastered 2013)"
+            },
+            {
+                "duree": 196,
+                "id": "-kCqSaspG7Q",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Failing in a Cool Way"
+            },
+            {
+                "duree": 296,
+                "id": "pRo4oXEgk4g",
+                "playlist": "CHARLY-RUSH",
+                "titre": "我愛你"
+            },
+            {
+                "duree": 253,
+                "id": "qkaf5sASfc8",
+                "playlist": "CHARLY-RUSH",
+                "titre": "春に揺られど君想う (feat. こぴ)"
+            },
+            {
+                "duree": 229,
+                "id": "IYSWouOTqwk",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Dynamite"
+            },
+            {
+                "duree": 271,
+                "id": "OuIRPaeXNqo",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Megaphone"
+            },
+            {
+                "duree": 203,
+                "id": "rIcwQ-Jy9sE",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Operaz (feat. Youthstar, ASM)"
+            },
+            {
+                "duree": 394,
+                "id": "aE-qRua89Ak",
+                "playlist": "CHARLY-RUSH",
+                "titre": "I Remember"
+            },
+            {
+                "duree": 350,
+                "id": "rxdGfg0Nwzs",
+                "playlist": "CHARLY-RUSH",
+                "titre": "Ego Death (feat. Steve Vai)"
+            }
+        ]
+    },
+    "CHARLY-LOVE": {
+        "url": "https://www.youtube.com/watch?v=rDVOqLGZgW0&list=PLeDd6ur4HzTiwdd_GuGbfuGo6vVl2vEY2",
+        "tracks": [
+            {
+                "duree": 216,
+                "id": "rDVOqLGZgW0",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Day & Night (feat. Holybrune)"
+            },
+            {
+                "duree": 201,
+                "id": "zl-S7piEp_U",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Wildest Dreams"
+            },
+            {
+                "duree": 438,
+                "id": "6POZlJAZsok",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Just the Two of Us (feat. Bill Withers)"
+            },
+            {
+                "duree": 223,
+                "id": "DbN5KsemhA0",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Stranger"
+            },
+            {
+                "duree": 244,
+                "id": "VZkRAp9XMIg",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Cosmic Girl (Remastered 2013)"
+            },
+            {
+                "duree": 170,
+                "id": "_Hhz5o9KVHI",
+                "playlist": "CHARLY-LOVE",
+                "titre": "By Your Side"
+            },
+            {
+                "duree": 242,
+                "id": "IYFqc9gk4qI",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Leave The Door Open"
+            },
+            {
+                "duree": 249,
+                "id": "nlZDv8yuxCc",
+                "playlist": "CHARLY-LOVE",
+                "titre": "After Last Night (with Thundercat & Bootsy Collins)"
+            },
+            {
+                "duree": 253,
+                "id": "KMdTrqzEI0I",
+                "playlist": "CHARLY-LOVE",
+                "titre": "恋"
+            },
+            {
+                "duree": 234,
+                "id": "02nFGcia31M",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Casio"
+            },
+            {
+                "duree": 153,
+                "id": "gZxmkRFOQws",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Tell Me Where To Go (feat. Apollo J, Zay Suav, Marcus Isiah & Rshad)"
+            },
+            {
+                "duree": 188,
+                "id": "XqJosdWocto",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Moonlight"
+            },
+            {
+                "duree": 243,
+                "id": "9i6tf3gIcfM",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Can't Get Enough Of Your Love, Babe"
+            },
+            {
+                "duree": 314,
+                "id": "Je932DsTvmo",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Sounds of Freedom"
+            },
+            {
+                "duree": 180,
+                "id": "9U4-PgbN7eM",
+                "playlist": "CHARLY-LOVE",
+                "titre": "LUNCH"
+            },
+            {
+                "duree": 206,
+                "id": "B_1moEBS4TE",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Hate It Or Love It"
+            },
+            {
+                "duree": 207,
+                "id": "vgOTxZtlXys",
+                "playlist": "CHARLY-LOVE",
+                "titre": "After The Storm"
+            },
+            {
+                "duree": 185,
+                "id": "9cHbvRUALrc",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Pink + White"
+            },
+            {
+                "duree": 147,
+                "id": "zNWO0dXoQhc",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Lost & Dizzy"
+            },
+            {
+                "duree": 177,
+                "id": "rE36juT-NVg",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Everything Eventually Ends"
+            },
+            {
+                "duree": 181,
+                "id": "TnbSasaBnZ8",
+                "playlist": "CHARLY-LOVE",
+                "titre": "Yu Yu Hakusho Romantic Theme Slowed & Reverbed (Remix)"
+            },
+            {
+                "duree": 78,
+                "id": "YIU3SaX7GiQ",
+                "playlist": "CHARLY-LOVE",
+                "titre": "\"Special\"- Smile High featuring Antwaun Stanley"
+            },
+            {
+                "duree": 222,
+                "id": "L0qBulm0hbg",
+                "playlist": "CHARLY-LOVE",
+                "titre": "I Keep Forgettin' (Every Time You're Near)"
+            }
+        ]
+    },
+    "CHARLY-CHILL": {
+        "url": "https://www.youtube.com/watch?v=WRLwTO_T52U&list=PLeDd6ur4HzTiJZ2GYmAEH9WnOQYff9EmD",
+        "tracks": [
+            {
+                "duree": 328,
+                "id": "WRLwTO_T52U",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Inner City Blues (Make Me Wanna Holler)"
+            },
+            {
+                "duree": 265,
+                "id": "Cu19WlR_UvA",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Shoody - Tokyo Melody"
+            },
+            {
+                "duree": 274,
+                "id": "cl_AtaYJZpk",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Moving Forward"
+            },
+            {
+                "duree": 231,
+                "id": "URR_Nv-6MZs",
+                "playlist": "CHARLY-CHILL",
+                "titre": "喜劇"
+            },
+            {
+                "duree": 295,
+                "id": "ljEzt2I7IFo",
+                "playlist": "CHARLY-CHILL",
+                "titre": "King Minos"
+            },
+            {
+                "duree": 249,
+                "id": "BxqYUbNR-c0",
+                "playlist": "CHARLY-CHILL",
+                "titre": "サカナクション / 忘れられないの　-Music Video-"
+            },
+            {
+                "duree": 213,
+                "id": "wgqUhK32n1c",
+                "playlist": "CHARLY-CHILL",
+                "titre": "The Door"
+            },
+            {
+                "duree": 258,
+                "id": "lt2cHiJABOI",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Messy (Sped Up)"
+            },
+            {
+                "duree": 161,
+                "id": "gkTQQFGABl8",
+                "playlist": "CHARLY-CHILL",
+                "titre": "On My Way"
+            },
+            {
+                "duree": 266,
+                "id": "friqL2l8rNE",
+                "playlist": "CHARLY-CHILL",
+                "titre": "GOLD"
+            },
+            {
+                "duree": 145,
+                "id": "gkmgUjDQJ2c",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Forget"
+            },
+            {
+                "duree": 196,
+                "id": "wj9OTLIautc",
+                "playlist": "CHARLY-CHILL",
+                "titre": "Hate Dancin'"
+            },
+            {
+                "duree": 8351,
+                "id": "VMEDS1IeuFQ",
+                "playlist": "CHARLY-CHILL",
+                "titre": "2 Hours Of The BEST Chill Jazz Funk Background Music To Stay Chill"
+            },
+            {
+                "duree": 3941,
+                "id": "WO7XZZAN95k",
+                "playlist": "CHARLY-CHILL",
+                "titre": "¸.·✩·.¸¸.·¯⍣✩ 𝓹𝓾𝓯𝓯 𝓽𝓱𝓮 𝓶𝓪𝓰𝓲𝓬 ✩⍣¯·.¸¸.·✩·.¸"
+            }
+        ]
     }
 }

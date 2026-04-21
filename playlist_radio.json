@@ -1,66 +1,1306 @@
 [
     {
-        "duree": 226,
-        "id": "r7-A9NqUjRI",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "24K Magic",
-        "start_minute": 672.25,
-        "heure_cible": "11:12"
+        "duree": 231,
+        "id": "URR_Nv-6MZs",
+        "playlist": "CHARLY-CHILL",
+        "titre": "喜劇",
+        "start_minute": 0,
+        "heure_cible": "00:00"
     },
     {
-        "duree": 294,
-        "id": "Kr4EQDVETuA",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Billie Jean",
-        "start_minute": 676.0,
-        "heure_cible": "11:16"
+        "duree": 328,
+        "id": "WRLwTO_T52U",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Inner City Blues (Make Me Wanna Holler)",
+        "start_minute": 3.85,
+        "heure_cible": "00:03"
     },
     {
-        "duree": 242,
-        "id": "N0TA8xXWSqE",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Smooth Operator - TikTok Remix",
-        "start_minute": 680.875,
-        "heure_cible": "11:20"
+        "duree": 295,
+        "id": "ljEzt2I7IFo",
+        "playlist": "CHARLY-CHILL",
+        "titre": "King Minos",
+        "start_minute": 9.316666666666666,
+        "heure_cible": "00:09"
+    },
+    {
+        "duree": 249,
+        "id": "BxqYUbNR-c0",
+        "playlist": "CHARLY-CHILL",
+        "titre": "サカナクション / 忘れられないの　-Music Video-",
+        "start_minute": 14.233333333333334,
+        "heure_cible": "00:14"
+    },
+    {
+        "duree": 265,
+        "id": "Cu19WlR_UvA",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Shoody - Tokyo Melody",
+        "start_minute": 18.383333333333333,
+        "heure_cible": "00:18"
+    },
+    {
+        "duree": 3941,
+        "id": "WO7XZZAN95k",
+        "playlist": "CHARLY-CHILL",
+        "titre": "¸.·✩·.¸¸.·¯⍣✩ 𝓹𝓾𝓯𝓯 𝓽𝓱𝓮 𝓶𝓪𝓰𝓲𝓬 ✩⍣¯·.¸¸.·✩·.¸",
+        "start_minute": 22.8,
+        "heure_cible": "00:22"
+    },
+    {
+        "duree": 215,
+        "id": "1bDuNZpIFOw",
+        "titre": "Men I Trust - Show Me How",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 88.48333333333333,
+        "heure_cible": "01:28"
+    },
+    {
+        "duree": 8351,
+        "id": "VMEDS1IeuFQ",
+        "playlist": "CHARLY-CHILL",
+        "titre": "2 Hours Of The BEST Chill Jazz Funk Background Music To Stay Chill",
+        "start_minute": 92.06666666666666,
+        "heure_cible": "01:32"
+    },
+    {
+        "duree": 436,
+        "id": "0RXdd0pCJ9Q",
+        "titre": "DWIG - Orange Evening // Laut & Luise (LUL007)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 231.25,
+        "heure_cible": "03:51"
+    },
+    {
+        "duree": 213,
+        "id": "wgqUhK32n1c",
+        "playlist": "CHARLY-CHILL",
+        "titre": "The Door",
+        "start_minute": 238.51666666666668,
+        "heure_cible": "03:58"
+    },
+    {
+        "duree": 145,
+        "id": "gkmgUjDQJ2c",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Forget",
+        "start_minute": 242.0666666666667,
+        "heure_cible": "04:02"
+    },
+    {
+        "duree": 266,
+        "id": "friqL2l8rNE",
+        "playlist": "CHARLY-CHILL",
+        "titre": "GOLD",
+        "start_minute": 244.48333333333335,
+        "heure_cible": "04:04"
+    },
+    {
+        "duree": 258,
+        "id": "lt2cHiJABOI",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Messy (Sped Up)",
+        "start_minute": 248.91666666666669,
+        "heure_cible": "04:08"
+    },
+    {
+        "duree": 196,
+        "id": "wj9OTLIautc",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Hate Dancin'",
+        "start_minute": 253.2166666666667,
+        "heure_cible": "04:13"
+    },
+    {
+        "duree": 274,
+        "id": "cl_AtaYJZpk",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Moving Forward",
+        "start_minute": 256.48333333333335,
+        "heure_cible": "04:16"
+    },
+    {
+        "duree": 161,
+        "id": "gkTQQFGABl8",
+        "playlist": "CHARLY-CHILL",
+        "titre": "On My Way",
+        "start_minute": 261.05,
+        "heure_cible": "04:21"
+    },
+    {
+        "duree": 4541,
+        "id": "gtKW6c6K-eI",
+        "titre": "IN HOUSE MUSIC WE TRUST",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 263.73333333333335,
+        "heure_cible": "04:23"
+    },
+    {
+        "duree": 174,
+        "id": "FlDuQhsxLms",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Candle Flame",
+        "start_minute": 339.4166666666667,
+        "heure_cible": "05:39"
+    },
+    {
+        "duree": 278,
+        "id": "bzb2He1C_UU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Get on the Floor",
+        "start_minute": 342.31666666666666,
+        "heure_cible": "05:42"
+    },
+    {
+        "duree": 234,
+        "id": "02nFGcia31M",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Casio",
+        "start_minute": 346.95,
+        "heure_cible": "05:46"
+    },
+    {
+        "duree": 3612,
+        "id": "cGnC2-Hl3Eg",
+        "titre": "House | Piano House | Deep House | Coffee Room #9 by Dr Zilter Michael Gray Robosonic HOSH Sonique",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 350.84999999999997,
+        "heure_cible": "05:50"
+    },
+    {
+        "duree": 150,
+        "id": "DH_mL6zwCCw",
+        "titre": "Anatole Muster & daniel hayn - Passerby (feat. Tane)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 411.04999999999995,
+        "heure_cible": "06:51"
+    },
+    {
+        "duree": 213,
+        "id": "dQw4w9WgXcQ",
+        "titre": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 413.54999999999995,
+        "heure_cible": "06:53"
+    },
+    {
+        "duree": 194,
+        "id": "BiVgcPhokbY",
+        "titre": "Conor Albert & ELSAS - Stuck In The Middle",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 417.09999999999997,
+        "heure_cible": "06:57"
+    },
+    {
+        "duree": 185,
+        "id": "hrZduVyfoEs",
+        "titre": "Heavy, California",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 420.3333333333333,
+        "heure_cible": "07:00"
+    },
+    {
+        "duree": 174,
+        "id": "LbYwT6TULjg",
+        "titre": "Freaking Out the Neighborhood",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 423.41666666666663,
+        "heure_cible": "07:03"
     },
     {
         "duree": 175,
         "id": "kIft-LUHHVA",
         "playlist": "CHARLY-GROOVE",
         "titre": "Espresso",
-        "start_minute": 684.875,
+        "start_minute": 426.3166666666666,
+        "heure_cible": "07:06"
+    },
+    {
+        "duree": 141,
+        "id": "K6BRna4_bmg",
+        "titre": "bbno$ & Rich Brian - edamame (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 429.2333333333333,
+        "heure_cible": "07:09"
+    },
+    {
+        "duree": 306,
+        "id": "1p2-O2jVhPU",
+        "titre": "Guts - Come Closer (Official Audio)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 431.5833333333333,
+        "heure_cible": "07:11"
+    },
+    {
+        "duree": 82,
+        "id": "q4i05EaML44",
+        "titre": "Bloopin",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 436.68333333333334,
+        "heure_cible": "07:16"
+    },
+    {
+        "duree": 201,
+        "id": "zl-S7piEp_U",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Wildest Dreams",
+        "start_minute": 438.05,
+        "heure_cible": "07:18"
+    },
+    {
+        "duree": 200,
+        "id": "3xSb5Pm-ws8",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Lihue",
+        "start_minute": 441.40000000000003,
+        "heure_cible": "07:21"
+    },
+    {
+        "duree": 207,
+        "id": "5lRos06sBm4",
+        "titre": "United (feat. Antwaun Stanley)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 444.73333333333335,
+        "heure_cible": "07:24"
+    },
+    {
+        "duree": 278,
+        "id": "ZwAAqeOYLJE",
+        "titre": "Up Top",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 448.18333333333334,
+        "heure_cible": "07:28"
+    },
+    {
+        "duree": 308,
+        "id": "QBTJf1txjC4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Got to Be Real",
+        "start_minute": 452.81666666666666,
+        "heure_cible": "07:32"
+    },
+    {
+        "duree": 206,
+        "id": "B_1moEBS4TE",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Hate It Or Love It",
+        "start_minute": 457.95,
+        "heure_cible": "07:37"
+    },
+    {
+        "duree": 243,
+        "id": "9i6tf3gIcfM",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Can't Get Enough Of Your Love, Babe",
+        "start_minute": 461.3833333333333,
+        "heure_cible": "07:41"
+    },
+    {
+        "duree": 244,
+        "id": "SunvrwYCvpU",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Cowboy Bebop - Tank! (Bass Cover) (Play Along Tabs In Video)",
+        "start_minute": 465.43333333333334,
+        "heure_cible": "07:45"
+    },
+    {
+        "duree": 262,
+        "id": "RyE7R5fgR60",
+        "titre": "Tom Misch - 'It Runs Through Me' (Feat. De La Soul)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 469.5,
+        "heure_cible": "07:49"
+    },
+    {
+        "duree": 248,
+        "id": "zYV6zZc_9jI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Give It To Me Baby",
+        "start_minute": 473.8666666666667,
+        "heure_cible": "07:53"
+    },
+    {
+        "duree": 340,
+        "id": "09Ig2MeSmSQ",
+        "titre": "Tempos Futuros (feat. Jose Roberto Bertrami)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 480.0,
+        "heure_cible": "08:00"
+    },
+    {
+        "duree": 157,
+        "id": "ZZ99I2Gw-V0",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Passionfruit",
+        "start_minute": 485.6666666666667,
+        "heure_cible": "08:05"
+    },
+    {
+        "duree": 265,
+        "id": "AW1ssZ5w79k",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Marechià",
+        "start_minute": 488.28333333333336,
+        "heure_cible": "08:08"
+    },
+    {
+        "duree": 170,
+        "id": "I6UA589JoKs",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "The Traveller",
+        "start_minute": 492.70000000000005,
+        "heure_cible": "08:12"
+    },
+    {
+        "duree": 213,
+        "id": "xXWqZx0wuiM",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "El Niño (Mixed by Chris Goss)",
+        "start_minute": 495.53333333333336,
+        "heure_cible": "08:15"
+    },
+    {
+        "duree": 223,
+        "id": "DbN5KsemhA0",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Stranger",
+        "start_minute": 499.08333333333337,
+        "heure_cible": "08:19"
+    },
+    {
+        "duree": 234,
+        "id": "ItyyFwwRWaQ",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Groove ma poule",
+        "start_minute": 502.8,
+        "heure_cible": "08:22"
+    },
+    {
+        "duree": 412,
+        "id": "e6vOwy_1kwQ",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Kryé Mwen (Patchworks Remix)",
+        "start_minute": 506.7,
+        "heure_cible": "08:26"
+    },
+    {
+        "duree": 571,
+        "id": "MU1lAkDJwU4",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "You No Fit Touch Am (Medlar Remix)",
+        "start_minute": 513.5666666666666,
+        "heure_cible": "08:33"
+    },
+    {
+        "duree": 195,
+        "id": "RBR1DFcyqgY",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Welcome To The Disco",
+        "start_minute": 523.0833333333333,
+        "heure_cible": "08:43"
+    },
+    {
+        "duree": 545,
+        "id": "Njk2YAgNMnE",
+        "titre": "King Gizzard & The Lizard Wizard - Iron Lung",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 526.3333333333333,
+        "heure_cible": "08:46"
+    },
+    {
+        "duree": 183,
+        "id": "wd9_QCH8Eq4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Don't Start Now",
+        "start_minute": 535.4166666666666,
+        "heure_cible": "08:55"
+    },
+    {
+        "duree": 3192,
+        "id": "BQCXV4ekAFE",
+        "titre": "Feel Good Nights 004 | Disco House DJ Mix | Never Dull Full DJ Set",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 538.4666666666666,
+        "heure_cible": "08:58"
+    },
+    {
+        "duree": 172,
+        "id": "hpjV962DLWs",
+        "titre": "Vladimir Cauchemar - Aulos (Official Music Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 591.6666666666666,
+        "heure_cible": "09:51"
+    },
+    {
+        "duree": 238,
+        "id": "mEhYtnHQAUw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Say So",
+        "start_minute": 594.5333333333333,
+        "heure_cible": "09:54"
+    },
+    {
+        "duree": 326,
+        "id": "eK5ozrSgqeI",
+        "titre": "Passing Breeze from \"Outrun\" - Big Band Jazz version (The 8-Bit Big Band)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 600.0,
+        "heure_cible": "10:00"
+    },
+    {
+        "duree": 264,
+        "id": "BC4zaaiXNMI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Love Dramatic",
+        "start_minute": 605.4333333333333,
+        "heure_cible": "10:05"
+    },
+    {
+        "duree": 249,
+        "id": "9RHFFeQ2tu4",
+        "titre": "Fever The Ghost - SOURCE (official music video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 609.8333333333333,
+        "heure_cible": "10:09"
+    },
+    {
+        "duree": 281,
+        "id": "EXWOJvlDwbU",
+        "titre": "Tom Misch - Disco Yes (feat. Poppy Ajudha) [Official Audio]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 613.9833333333332,
+        "heure_cible": "10:13"
+    },
+    {
+        "duree": 212,
+        "id": "hXzPxBhhmY8",
+        "titre": "I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 618.6666666666665,
+        "heure_cible": "10:18"
+    },
+    {
+        "duree": 191,
+        "id": "NoqKkw4azn8",
+        "titre": "Calipso",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 622.1999999999998,
+        "heure_cible": "10:22"
+    },
+    {
+        "duree": 109,
+        "id": "gTw22MVAk1E",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Chaos at the Spaceship",
+        "start_minute": 625.3833333333331,
+        "heure_cible": "10:25"
+    },
+    {
+        "duree": 104,
+        "id": "Gzuk7oK7ngE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "反面教師",
+        "start_minute": 627.1999999999998,
+        "heure_cible": "10:27"
+    },
+    {
+        "duree": 153,
+        "id": "gZxmkRFOQws",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Tell Me Where To Go (feat. Apollo J, Zay Suav, Marcus Isiah & Rshad)",
+        "start_minute": 628.9333333333332,
+        "heure_cible": "10:28"
+    },
+    {
+        "duree": 102,
+        "id": "mhRj1b8hVMc",
+        "titre": "Dead Inside Shuffle - Louis Cole",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 631.4833333333331,
+        "heure_cible": "10:31"
+    },
+    {
+        "duree": 632,
+        "id": "56Ju68VyKVk",
+        "titre": "BEAT FUNKTION - THE PLUNGE : Official Music Video",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 633.1833333333332,
+        "heure_cible": "10:33"
+    },
+    {
+        "duree": 256,
+        "id": "KOOhPfMbuIQ",
+        "titre": "half•alive - still feel. [OFFICIAL VIDEO]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 643.7166666666665,
+        "heure_cible": "10:43"
+    },
+    {
+        "duree": 249,
+        "id": "nlZDv8yuxCc",
+        "playlist": "CHARLY-LOVE",
+        "titre": "After Last Night (with Thundercat & Bootsy Collins)",
+        "start_minute": 647.9833333333331,
+        "heure_cible": "10:47"
+    },
+    {
+        "duree": 218,
+        "id": "qfgfY_gB1Eg",
+        "titre": "Space Cowboy (Remastered 2006)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 652.1333333333331,
+        "heure_cible": "10:52"
+    },
+    {
+        "duree": 137,
+        "id": "EiV1YxtbfcE",
+        "titre": "Angèle - Saiyan [IA] (prod. Lnkhey)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 655.7666666666664,
+        "heure_cible": "10:55"
+    },
+    {
+        "duree": 301,
+        "id": "Omnpu8mzX4c",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Give Me the Night",
+        "start_minute": 658.0499999999997,
+        "heure_cible": "10:58"
+    },
+    {
+        "duree": 150,
+        "id": "Wgw6tJ8yz9M",
+        "titre": "JAWNY - Honeypie (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 663.0666666666664,
+        "heure_cible": "11:03"
+    },
+    {
+        "duree": 180,
+        "id": "9U4-PgbN7eM",
+        "playlist": "CHARLY-LOVE",
+        "titre": "LUNCH",
+        "start_minute": 665.5666666666664,
+        "heure_cible": "11:05"
+    },
+    {
+        "duree": 294,
+        "id": "Kr4EQDVETuA",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Billie Jean",
+        "start_minute": 668.5666666666664,
+        "heure_cible": "11:08"
+    },
+    {
+        "duree": 209,
+        "id": "n0GXk_T2zs8",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Training Season",
+        "start_minute": 673.4666666666664,
+        "heure_cible": "11:13"
+    },
+    {
+        "duree": 220,
+        "id": "Ojj8mR8PEbw",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Travelling Without Moving (Remastered 2013)",
+        "start_minute": 676.9499999999997,
+        "heure_cible": "11:16"
+    },
+    {
+        "duree": 226,
+        "id": "r7-A9NqUjRI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "24K Magic",
+        "start_minute": 680.6166666666663,
+        "heure_cible": "11:20"
+    },
+    {
+        "duree": 288,
+        "id": "OLZga32cQNo",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "1979",
+        "start_minute": 684.383333333333,
         "heure_cible": "11:24"
     },
     {
-        "duree": 173,
-        "id": "O_n_0whrgWc",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "WO:OO",
-        "start_minute": 687.75,
-        "heure_cible": "11:27"
+        "duree": 8652,
+        "id": "PLUZDtJCdDM",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "i hijacked a car and this is what i found in the CD player [Hard House]",
+        "start_minute": 689.1833333333329,
+        "heure_cible": "11:29"
     },
     {
-        "duree": 2055,
-        "id": "1UOVLdPslmo",
+        "duree": 217,
+        "id": "GgvMSSiZMi8",
+        "titre": "Cosmic Sans (feat. Tom Misch)",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "titre": "STARBLASTER /// 3am Funk Dance Party",
-        "start_minute": 690.625,
-        "heure_cible": "11:30"
+        "start_minute": 833.383333333333,
+        "heure_cible": "13:53"
+    },
+    {
+        "duree": 294,
+        "id": "1AVxBedMP4I",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Get Down On It",
+        "start_minute": 836.9999999999997,
+        "heure_cible": "13:56"
+    },
+    {
+        "duree": 155,
+        "id": "6okxuiiHx2w",
+        "titre": "Breakbot - Baby I'm Yours (feat. Irfane) [Official Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 841.8999999999996,
+        "heure_cible": "14:01"
+    },
+    {
+        "duree": 216,
+        "id": "rDVOqLGZgW0",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Day & Night (feat. Holybrune)",
+        "start_minute": 844.483333333333,
+        "heure_cible": "14:04"
+    },
+    {
+        "duree": 222,
+        "id": "L0qBulm0hbg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "I Keep Forgettin' (Every Time You're Near)",
+        "start_minute": 848.083333333333,
+        "heure_cible": "14:08"
+    },
+    {
+        "duree": 177,
+        "id": "rE36juT-NVg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Everything Eventually Ends",
+        "start_minute": 851.7833333333331,
+        "heure_cible": "14:11"
+    },
+    {
+        "duree": 181,
+        "id": "TnbSasaBnZ8",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Yu Yu Hakusho Romantic Theme Slowed & Reverbed (Remix)",
+        "start_minute": 854.7333333333331,
+        "heure_cible": "14:14"
+    },
+    {
+        "duree": 185,
+        "id": "9cHbvRUALrc",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Pink + White",
+        "start_minute": 857.7499999999998,
+        "heure_cible": "14:17"
+    },
+    {
+        "duree": 170,
+        "id": "_Hhz5o9KVHI",
+        "playlist": "CHARLY-LOVE",
+        "titre": "By Your Side",
+        "start_minute": 860.8333333333331,
+        "heure_cible": "14:20"
+    },
+    {
+        "duree": 207,
+        "id": "vgOTxZtlXys",
+        "playlist": "CHARLY-LOVE",
+        "titre": "After The Storm",
+        "start_minute": 863.6666666666665,
+        "heure_cible": "14:23"
+    },
+    {
+        "duree": 242,
+        "id": "IYFqc9gk4qI",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Leave The Door Open",
+        "start_minute": 867.1166666666666,
+        "heure_cible": "14:27"
+    },
+    {
+        "duree": 438,
+        "id": "6POZlJAZsok",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Just the Two of Us (feat. Bill Withers)",
+        "start_minute": 871.1499999999999,
+        "heure_cible": "14:31"
+    },
+    {
+        "duree": 253,
+        "id": "KMdTrqzEI0I",
+        "playlist": "CHARLY-LOVE",
+        "titre": "恋",
+        "start_minute": 878.4499999999998,
+        "heure_cible": "14:38"
+    },
+    {
+        "duree": 188,
+        "id": "XqJosdWocto",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Moonlight",
+        "start_minute": 882.6666666666665,
+        "heure_cible": "14:42"
+    },
+    {
+        "duree": 314,
+        "id": "Je932DsTvmo",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Sounds of Freedom",
+        "start_minute": 885.7999999999998,
+        "heure_cible": "14:45"
+    },
+    {
+        "duree": 244,
+        "id": "VZkRAp9XMIg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Cosmic Girl (Remastered 2013)",
+        "start_minute": 891.0333333333332,
+        "heure_cible": "14:51"
+    },
+    {
+        "duree": 147,
+        "id": "zNWO0dXoQhc",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Lost & Dizzy",
+        "start_minute": 895.0999999999999,
+        "heure_cible": "14:55"
+    },
+    {
+        "duree": 78,
+        "id": "YIU3SaX7GiQ",
+        "playlist": "CHARLY-LOVE",
+        "titre": "\"Special\"- Smile High featuring Antwaun Stanley",
+        "start_minute": 897.55,
+        "heure_cible": "14:57"
+    },
+    {
+        "duree": 256,
+        "id": "5SXX-pWzOY8",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Conga",
+        "start_minute": 898.8499999999999,
+        "heure_cible": "14:58"
+    },
+    {
+        "duree": 198,
+        "id": "JRF8Nko1EDY",
+        "titre": "King Gizzard & The Lizard Wizard - Hate Dancin'",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 903.1166666666666,
+        "heure_cible": "15:03"
+    },
+    {
+        "duree": 188,
+        "id": "5xyoPwocD08",
+        "titre": "Julien Granel - PLUS FORT",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 906.4166666666665,
+        "heure_cible": "15:06"
+    },
+    {
+        "duree": 286,
+        "id": "ddZb5LIggzs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "The Grid Generation (feat. Louis Cole)",
+        "start_minute": 909.5499999999998,
+        "heure_cible": "15:09"
+    },
+    {
+        "duree": 126,
+        "id": "oHee6cG6Ubk",
+        "titre": "Adieu les filles",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 914.3166666666665,
+        "heure_cible": "15:14"
+    },
+    {
+        "duree": 229,
+        "id": "IYSWouOTqwk",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Dynamite",
+        "start_minute": 916.4166666666665,
+        "heure_cible": "15:16"
+    },
+    {
+        "duree": 207,
+        "id": "K1ROjN6cyeo",
+        "titre": "Light You Up (feat. PV Nova, Tices)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 920.2333333333332,
+        "heure_cible": "15:20"
+    },
+    {
+        "duree": 255,
+        "id": "tvNSXS4x9nc",
+        "titre": "Kendrick Lamar - United In Grief (Official Audio)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 923.6833333333333,
+        "heure_cible": "15:23"
+    },
+    {
+        "duree": 258,
+        "id": "lt2cHiJABOI",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Messy (Sped Up)",
+        "start_minute": 927.875,
+        "heure_cible": "15:27"
+    },
+    {
+        "duree": 350,
+        "id": "rxdGfg0Nwzs",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Ego Death (feat. Steve Vai)",
+        "start_minute": 932.125,
+        "heure_cible": "15:32"
+    },
+    {
+        "duree": 286,
+        "id": "ddZb5LIggzs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "The Grid Generation (feat. Louis Cole)",
+        "start_minute": 937.875,
+        "heure_cible": "15:37"
+    },
+    {
+        "duree": 255,
+        "id": "tvNSXS4x9nc",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "titre": "Kendrick Lamar - United In Grief (Official Audio)",
+        "start_minute": 942.625,
+        "heure_cible": "15:42"
+    },
+    {
+        "duree": 244,
+        "id": "SunvrwYCvpU",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Cowboy Bebop - Tank! (Bass Cover) (Play Along Tabs In Video)",
+        "start_minute": 946.875,
+        "heure_cible": "15:46"
+    },
+    {
+        "duree": 265,
+        "id": "AW1ssZ5w79k",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Marechià",
+        "start_minute": 950.875,
+        "heure_cible": "15:50"
+    },
+    {
+        "duree": 234,
+        "id": "ItyyFwwRWaQ",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Groove ma poule",
+        "start_minute": 955.25,
+        "heure_cible": "15:55"
+    },
+    {
+        "duree": 213,
+        "id": "xXWqZx0wuiM",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "El Niño (Mixed by Chris Goss)",
+        "start_minute": 958.375,
+        "heure_cible": "15:58"
+    },
+    {
+        "duree": 164,
+        "id": "dybNNo8y48k",
+        "titre": "Breakbot - Another You (Feat. Ruckazoid) [Official Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 962.1833333333333,
+        "heure_cible": "16:02"
+    },
+    {
+        "duree": 166,
+        "id": "WdzRZt-srpY",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Deep Down",
+        "start_minute": 964.9166666666666,
+        "heure_cible": "16:04"
+    },
+    {
+        "duree": 283,
+        "id": "L1_PRGs6OYI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Tondoho Mba",
+        "start_minute": 967.6833333333333,
+        "heure_cible": "16:07"
+    },
+    {
+        "duree": 1540,
+        "id": "cMIJsoaxRjk",
+        "titre": "Justin Timberlake: Tiny Desk Concert",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 972.4,
+        "heure_cible": "16:12"
+    },
+    {
+        "duree": 215,
+        "id": "3cKtSlsYVEU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "September",
+        "start_minute": 998.0666666666666,
+        "heure_cible": "16:38"
+    },
+    {
+        "duree": 350,
+        "id": "rxdGfg0Nwzs",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Ego Death (feat. Steve Vai)",
+        "start_minute": 1001.65,
+        "heure_cible": "16:41"
+    },
+    {
+        "duree": 4281,
+        "id": "z5PATyME8tY",
+        "titre": "Smooth Funky City Pop on vinyl, シティ・ポップ, Clássicos da MPB with Bobby Ghanoush",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1007.4833333333333,
+        "heure_cible": "16:47"
+    },
+    {
+        "duree": 203,
+        "id": "CEw-7cMnBDY",
+        "titre": "Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1080.0,
+        "heure_cible": "18:00"
+    },
+    {
+        "duree": 228,
+        "id": "OWiVJMgms9E",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Voyager",
+        "start_minute": 1083.3833333333334,
+        "heure_cible": "18:03"
+    },
+    {
+        "duree": 240,
+        "id": "llPHj_3-BQU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Van La Ka Vante (Omar Mendez TD Fix)",
+        "start_minute": 1087.1833333333334,
+        "heure_cible": "18:07"
+    },
+    {
+        "duree": 379,
+        "id": "ndEhXtwoOmQ",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Daddy Sweet",
+        "start_minute": 1091.1833333333334,
+        "heure_cible": "18:11"
+    },
+    {
+        "duree": 197,
+        "id": "HwyvWnWX03c",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Dj Kayz Soirée Ft Mokobé,Dry,Dieselle",
+        "start_minute": 1097.5,
+        "heure_cible": "18:17"
+    },
+    {
+        "duree": 237,
+        "id": "fWlvNwdAoAc",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Cloud 9",
+        "start_minute": 1100.7833333333333,
+        "heure_cible": "18:20"
+    },
+    {
+        "duree": 286,
+        "id": "0dOkB7Mhtt0",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Sticky Like Glue",
+        "start_minute": 1104.7333333333333,
+        "heure_cible": "18:24"
+    },
+    {
+        "duree": 240,
+        "id": "qXI87eMP-bs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Face to Face",
+        "start_minute": 1109.5,
+        "heure_cible": "18:29"
+    },
+    {
+        "duree": 185,
+        "id": "GFjJ11WZS2Y",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "You & Me",
+        "start_minute": 1113.5,
+        "heure_cible": "18:33"
+    },
+    {
+        "duree": 170,
+        "id": "DiTd771WumE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "APT.",
+        "start_minute": 1116.5833333333333,
+        "heure_cible": "18:36"
+    },
+    {
+        "duree": 255,
+        "id": "1zwaZkOXXqw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Daddy ! Daddy ! Do !",
+        "start_minute": 1119.4166666666665,
+        "heure_cible": "18:39"
+    },
+    {
+        "duree": 452,
+        "id": "NqThf-MpCjs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Gypsy Woman (She's Homeless) (La Da Dee La Da Da) (Basement Boy Strip To The Bone Mix)",
+        "start_minute": 1123.6666666666665,
+        "heure_cible": "18:43"
+    },
+    {
+        "duree": 338,
+        "id": "20OGm_-RebE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Hung Up",
+        "start_minute": 1131.1999999999998,
+        "heure_cible": "18:51"
+    },
+    {
+        "duree": 203,
+        "id": "AVz2FAp9odU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Skate",
+        "start_minute": 1136.8333333333333,
+        "heure_cible": "18:56"
     },
     {
         "duree": 259,
         "id": "zikd5BZycZQ",
         "playlist": "CHARLY-GROOVE",
         "titre": "Do It",
-        "start_minute": 724.875,
-        "heure_cible": "12:04"
+        "start_minute": 1140.2166666666667,
+        "heure_cible": "19:00"
+    },
+    {
+        "duree": 307,
+        "id": "MR3uP7IYz44",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Lady (Hear Me Tonight)",
+        "start_minute": 1144.5333333333333,
+        "heure_cible": "19:04"
+    },
+    {
+        "duree": 204,
+        "id": "vTMSj7gDEGs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Sing a Song",
+        "start_minute": 1149.6499999999999,
+        "heure_cible": "19:09"
     },
     {
         "duree": 255,
         "id": "bgmMpT_m-t4",
         "playlist": "CHARLY-GROOVE",
         "titre": "Part-Time Lover",
-        "start_minute": 729.125,
-        "heure_cible": "12:09"
+        "start_minute": 1153.05,
+        "heure_cible": "19:13"
+    },
+    {
+        "duree": 221,
+        "id": "Z28jtA4Cjvw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Assumptions",
+        "start_minute": 1157.3,
+        "heure_cible": "19:17"
+    },
+    {
+        "duree": 5766,
+        "id": "WbhOCNjMXD4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Funky House Music & Outdoor Cooking in Paradise - Flavour Trip Playlist | Good Vibes Dance Mix",
+        "start_minute": 1160.9833333333333,
+        "heure_cible": "19:20"
+    },
+    {
+        "duree": 265,
+        "id": "FxzBvqY5PP0",
+        "titre": "Daft Punk - Digital Love (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1257.0833333333333,
+        "heure_cible": "20:57"
+    },
+    {
+        "duree": 206,
+        "id": "sn0viUbmUVU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Standing Next to You",
+        "start_minute": 1261.5,
+        "heure_cible": "21:01"
+    },
+    {
+        "duree": 328,
+        "id": "4qqeafI9kXM",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "LOST IN PARADISE (Jujutsu Kaisen Ending Theme Song)",
+        "start_minute": 1264.9333333333334,
+        "heure_cible": "21:04"
+    },
+    {
+        "duree": 173,
+        "id": "O_n_0whrgWc",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "WO:OO",
+        "start_minute": 1270.4,
+        "heure_cible": "21:10"
+    },
+    {
+        "duree": 258,
+        "id": "swJOIjjW69U",
+        "titre": "Dreams (2004 Remaster)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1273.2833333333335,
+        "heure_cible": "21:13"
+    },
+    {
+        "duree": 293,
+        "id": "jhOVibLEDhA",
+        "titre": "星野源 – 恋 (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1277.5833333333335,
+        "heure_cible": "21:17"
+    },
+    {
+        "duree": 193,
+        "id": "NMA_isZYsYQ",
+        "titre": "KICK BACK",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1282.466666666667,
+        "heure_cible": "21:22"
+    },
+    {
+        "duree": 215,
+        "id": "XX4ciZy6Or0",
+        "titre": "Macaulkin & The Robots - Ces Soirées-Là (2024) [ft RobotSan, RobotAngele + Guests]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1285.6833333333336,
+        "heure_cible": "21:25"
+    },
+    {
+        "duree": 188,
+        "id": "euYS4ldiMjc",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Bad Boy",
+        "start_minute": 1289.2666666666669,
+        "heure_cible": "21:29"
+    },
+    {
+        "duree": 5576,
+        "id": "gwt8rbxY8CI",
+        "titre": "THE ULTIMATE PERSONA 5 MUSIC COLLECTION (STUDY/WORK)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1292.4000000000003,
+        "heure_cible": "21:32"
+    },
+    {
+        "duree": 434,
+        "id": "dIlUbb4VtzY",
+        "titre": "Michael Jackson- Rock with you (The Reflex Revision)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1385.3333333333337,
+        "heure_cible": "23:05"
+    },
+    {
+        "duree": 263,
+        "id": "-pnBR0Ec7yc",
+        "titre": "catching a vibe with my 1973 Fender Rhodes Mark I",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1392.566666666667,
+        "heure_cible": "23:12"
+    },
+    {
+        "duree": 193,
+        "id": "zgdufCDrulI",
+        "titre": "MydNyte",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1396.9500000000005,
+        "heure_cible": "23:16"
+    },
+    {
+        "duree": 248,
+        "id": "VbD_kBJc_gI",
+        "titre": "David Bowie - Let's Dance (Official Video) [HD]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1400.1666666666672,
+        "heure_cible": "23:20"
+    },
+    {
+        "duree": 196,
+        "id": "-kCqSaspG7Q",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Failing in a Cool Way",
+        "start_minute": 1404.3000000000006,
+        "heure_cible": "23:24"
+    },
+    {
+        "duree": 209,
+        "id": "LnOts74hPhU",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Dance!",
+        "start_minute": 1407.5666666666673,
+        "heure_cible": "23:27"
+    },
+    {
+        "duree": 213,
+        "id": "m9SMT5ipbxk",
+        "playlist": "CHARLY-RUSH",
+        "titre": "アイドル",
+        "start_minute": 1411.0500000000006,
+        "heure_cible": "23:31"
+    },
+    {
+        "duree": 271,
+        "id": "OuIRPaeXNqo",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Megaphone",
+        "start_minute": 1414.6000000000006,
+        "heure_cible": "23:34"
+    },
+    {
+        "duree": 296,
+        "id": "pRo4oXEgk4g",
+        "playlist": "CHARLY-RUSH",
+        "titre": "我愛你",
+        "start_minute": 1419.1166666666672,
+        "heure_cible": "23:39"
+    },
+    {
+        "duree": 203,
+        "id": "rIcwQ-Jy9sE",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Operaz (feat. Youthstar, ASM)",
+        "start_minute": 1424.0500000000006,
+        "heure_cible": "23:44"
+    },
+    {
+        "duree": 394,
+        "id": "aE-qRua89Ak",
+        "playlist": "CHARLY-RUSH",
+        "titre": "I Remember",
+        "start_minute": 1427.433333333334,
+        "heure_cible": "23:47"
+    },
+    {
+        "duree": 236,
+        "id": "_B943OFlHVs",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Right Here, Right Now",
+        "start_minute": 1434.0000000000007,
+        "heure_cible": "23:54"
+    },
+    {
+        "duree": 280,
+        "id": "CnJsQQWrmiM",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Sneaky Driver",
+        "start_minute": 1437.933333333334,
+        "heure_cible": "23:57"
     }
 ]

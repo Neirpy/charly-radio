@@ -6,7 +6,8 @@ import yt_dlp
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QHBoxLayout, 
                              QVBoxLayout, QListWidget, QLabel, QPushButton, 
                              QMessageBox, QLineEdit, QComboBox, QScrollArea, 
-                             QFrame, QListWidgetItem)
+                             QFrame, QListWidgetItem, QGroupBox, QDialog, 
+                             QTextEdit, QFormLayout, QSpinBox)
 from PyQt6.QtCore import Qt, QThread, pyqtSignal, QMimeData
 from PyQt6.QtGui import QDrag, QPainter, QColor, QPen, QFont
 
@@ -15,6 +16,14 @@ PIXELS_PER_MINUTE = 8  # On augmente l'échelle pour que tout soit plus lisible 
 CANVAS_HEIGHT = 24 * 60 * PIXELS_PER_MINUTE
 TIMELINE_WIDTH = 60
 SNAP_MARGIN_PIXELS = 15  # Marge d'aimantation (~5 minutes)
+
+# --- HELPER ---
+def is_valid_json(s):
+    try:
+        json.loads(s)
+        return True
+    except:
+        return False
 
 # --- GÉNÉRATEUR DE COULEUR ---
 def get_playlist_color(playlist_name):
@@ -60,6 +69,209 @@ class YoutubeWorker(QThread):
                 self.finished.emit(tracks, self.url, titre_playlist)
         except Exception as e:
             self.error.emit(str(e))
+
+# --- WORKER IA LOCALE (OLLAMA) ---
+class AIWorker(QThread):
+    finished = pyqtSignal(list)
+    error = pyqtSignal(str)
+
+    def __init__(self, model_name, user_context, library_data, mode="full", start_hour=0, duration_hours=24):
+        super().__init__()
+        self.model_name = model_name
+        self.user_context = user_context
+        self.library_data = library_data
+        self.mode = mode
+        self.start_hour = start_hour
+        self.duration_hours = duration_hours
+
+    def load_ai_config(self):
+        try:
+            if os.path.exists("ai_config.json"):
+                with open("ai_config.json", "r", encoding="utf-8") as f:
+                    return json.load(f)
+        except: pass
+        return {}
+
+    def load_history(self):
+        try:
+            if os.path.exists("historique_diffusion.json"):
+                with open("historique_diffusion.json", "r", encoding="utf-8") as f:
+                    return json.load(f)
+        except: pass
+        return []
+
+    def get_day_name(self):
+        import datetime
+        days = ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"]
+        return days[datetime.datetime.now().weekday()]
+
+    def run(self):
+        import subprocess
+        import re
+        
+        config = self.load_ai_config()
+        history = self.load_history()
+        day_name = self.get_day_name()
+        
+        # 15 pistes max, titres courts
+        all_tracks = []
+        for playlist_name, data in self.library_data.items():
+            for track in data.get("tracks", []):
+                all_tracks.append({
+                    "id": track["id"],
+                    "titre": track["titre"][:40]
+                })
+            tracks_subset = all_tracks[:30] # On peut passer plus de titres (30)
+        lib_lines = "\n".join([f"{t['id']}|{t['titre']}" for t in tracks_subset])
+
+        recent_ids = ",".join([
+            tid for day in history[-3:] for tid in day.get("track_ids", [])
+        ][:10])
+        
+        start_min_offset = self.start_hour * 60
+        end_min = start_min_offset + self.duration_hours * 60
+        
+        # On demande à l'IA environ 1 morceau directeur par heure ou toutes les 30 min
+        n_anchors = max(4, self.duration_hours)
+        n_anchors = min(n_anchors, 12)  # Max 12 ancres pour Ollama
+        
+        day_mood = config.get("weekly_moods", {}).get(day_name, "good vibes")
+        ctx = self.user_context[:100]
+        
+        # Liste des genres (playlists) disponibles
+        genres = list(self.library_data.keys())
+        genres_str = ", ".join(genres)
+        
+        prompt = (
+            f"You are the Program Director. Mode: Hybrid (AI Anchors + Auto-fill).\n"
+            f"Day:{day_name} Mood:{day_mood} UserContext:{ctx}\n"
+            f"Available Playlists (Genres): {genres_str}\n"
+            f"Music list (id|title):\n{lib_lines}\n"
+            f"Avoid IDs: {recent_ids}\n\n"
+            f"TASK: Select {n_anchors} 'Anchor Tracks' from the list. Each track marks a vibe shift.\n"
+            f"For each anchor, give: id, start_minute (between {start_min_offset} and {end_min}), and 'fill_genre' (the playlist name to use for filling the gap AFTER this track).\n"
+            f"JSON FORMAT:\n"
+            f'[{{"id":"ID", "start_minute":480, "titre":"Title", "fill_genre":"{genres[0]}"}},...]\n'
+            f"JSON output:"
+        )
+        
+        print(f"DEBUG prompt ({len(prompt)} chars)")
+        
+        response_text = ""
+        try:
+            result = subprocess.run(
+                ["ollama", "run", self.model_name],
+                input=prompt,
+                capture_output=True,
+                text=True,
+                timeout=300
+            )
+            
+            response_text = result.stdout.strip()
+            err_text = result.stderr.strip()
+            
+            print(f"DEBUG stderr: {err_text[:200]}")
+            print(f"DEBUG stdout: {repr(response_text[:600])}")
+            
+            if not response_text:
+                self.error.emit(f"Ollama n'a rien retourné.\nStderr: {err_text[:300]}")
+                return
+
+            # Extraction du tableau JSON dans la réponse
+            match = re.search(r'\[.+\]', response_text, re.DOTALL)
+            if match:
+                raw_json = match.group(0)
+                try:
+                    playlist_suggested = json.loads(raw_json)
+                except json.JSONDecodeError:
+                    # JSON tronqué : on récupère les objets complets
+                    objects = re.findall(r'\{[^{}]+\}', raw_json)
+                    playlist_suggested = [json.loads(o) for o in objects if is_valid_json(o)]
+                    print(f"DEBUG: JSON partiel, récupéré {len(playlist_suggested)} objets")
+            else:
+                playlist_suggested = json.loads(response_text)
+            
+            self.finished.emit(playlist_suggested)
+            
+        except subprocess.TimeoutExpired:
+            self.error.emit("Timeout : le modèle a mis trop de temps. Essayez un modèle plus léger.")
+        except Exception as e:
+            self.error.emit(f"Erreur IA : {str(e)}\n\nRéponse:\n{response_text[:300]}")
+
+
+# --- FENÊTRE MODALE GÉNÉRATION IA ---
+class AIGenerationDialog(QDialog):
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.setWindowTitle("Configuration de la Programmation IA")
+        self.setMinimumSize(520, 450)
+        self.setStyleSheet("""
+            QDialog { background-color: #f4f1ea; border: 4px solid #1a1a1a; }
+            QLabel { font-weight: bold; color: #1a1a1a; }
+            QLineEdit, QTextEdit, QComboBox, QSpinBox { 
+                background: white; border: 2px solid #1a1a1a; 
+                padding: 8px; border-radius: 5px; 
+            }
+            QPushButton#GenBtn {
+                background-color: #ff48b0; color: white;
+                font-weight: bold; font-size: 16px; padding: 12px;
+                border: 3px solid #1a1a1a;
+            }
+        """)
+
+        layout = QVBoxLayout(self)
+        
+        form = QFormLayout()
+        self.model_input = QLineEdit("gemma4:26b")
+        
+        self.mode_combo = QComboBox()
+        self.mode_combo.addItems(["Journée complète (24h)", "Tranche horaire"])
+        self.mode_combo.currentIndexChanged.connect(self.on_mode_changed)
+        
+        # Heure de début (visible seulement en mode Tranche)
+        self.start_hour_spin = QSpinBox()
+        self.start_hour_spin.setRange(0, 23)
+        self.start_hour_spin.setSuffix("h00")
+        import datetime
+        self.start_hour_spin.setValue(datetime.datetime.now().hour)
+        self.start_hour_spin.setVisible(False)
+        
+        self.duration_spin = QSpinBox()
+        self.duration_spin.setRange(1, 8)
+        self.duration_spin.setSuffix(" heure(s)")
+        self.duration_spin.setValue(2)
+        self.duration_spin.setVisible(False)
+        
+        form.addRow("Modèle Ollama :", self.model_input)
+        form.addRow("Mode de rendu :", self.mode_combo)
+        form.addRow("Heure de début :", self.start_hour_spin)
+        form.addRow("Durée :", self.duration_spin)
+        layout.addLayout(form)
+
+        layout.addWidget(QLabel("Décrivez l'ambiance et le contexte :"))
+        self.context_input = QTextEdit()
+        self.context_input.setPlaceholderText("Ex: Matinée calme, après-midi énergique avec du Groove...")
+        layout.addWidget(self.context_input)
+
+        self.btn_generate = QPushButton("Lancer le calcul")
+        self.btn_generate.setObjectName("GenBtn")
+        self.btn_generate.clicked.connect(self.accept)
+        layout.addWidget(self.btn_generate)
+
+    def on_mode_changed(self, index):
+        is_slot = (index == 1)
+        self.start_hour_spin.setVisible(is_slot)
+        self.duration_spin.setVisible(is_slot)
+
+    def get_data(self):
+        is_full = self.mode_combo.currentIndex() == 0
+        return {
+            "model": self.model_input.text(),
+            "context": self.context_input.toPlainText(),
+            "mode": "full" if is_full else "slot",
+            "start_hour": 0 if is_full else self.start_hour_spin.value(),
+            "duration_hours": 24 if is_full else self.duration_spin.value()
+        }
 
 # --- BLOC CALENDRIER (La Musique) ---
 class TimelineBlock(QFrame):
@@ -367,6 +579,17 @@ class RadioPlannerApp(QMainWindow):
         lib_layout.addWidget(self.lib_list)
 
         # ==========================================
+        # SECTION IA (OLLAMA)
+        # ==========================================
+        btn_open_ai = QPushButton("🤖 Générer avec l'IA")
+        btn_open_ai.setObjectName("ActionBtn")
+        btn_open_ai.setStyleSheet("""
+            background-color: #ff48b0; color: white; height: 50px; font-size: 18px;
+        """)
+        btn_open_ai.clicked.connect(self.open_ai_dialog)
+        lib_layout.addWidget(btn_open_ai)
+
+        # ==========================================
         # DROITE : CALENDRIER CONTINU
         # ==========================================
         right_panel = QFrame()
@@ -400,6 +623,156 @@ class RadioPlannerApp(QMainWindow):
             self.combo_playlists.addItem(nom)
         if self.playlists_data:
             self.switch_playlist()
+
+    # --- LOGIQUE IA ---
+    def open_ai_dialog(self):
+        dialog = AIGenerationDialog(self)
+        if dialog.exec():
+            data = dialog.get_data()
+            if not data['context'].strip():
+                QMessageBox.warning(self, "Erreur", "Veuillez entrer un contexte.")
+                return
+            
+            self.statusBar().showMessage("L'IA réfléchit... (cela peut prendre du temps)")
+            
+            self.ai_worker = AIWorker(data['model'], data['context'], self.playlists_data, data['mode'],
+                                      start_hour=data.get('start_hour', 0),
+                                      duration_hours=data.get('duration_hours', 24))
+            self.ai_worker.finished.connect(self.on_ai_finished)
+            self.ai_worker.error.connect(lambda err: QMessageBox.critical(self, "Erreur IA", err))
+            self.ai_worker.start()
+
+    def on_ai_finished(self, suggested_playlist):
+        self.statusBar().showMessage("IA Terminée !")
+        
+        if not suggested_playlist:
+            QMessageBox.warning(self, "IA", "L'IA n'a retourné aucun titre.")
+            return
+
+        # On demande confirmation avant d'effacer
+        repl = QMessageBox.question(self, "Confirmer", "L'IA a généré une structure. Voulez-vous remplacer le planning actuel ?",
+                                    QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        
+        if repl == QMessageBox.StandardButton.Yes:
+            # On vide tout proprement
+            for child in self.canvas.children():
+                if isinstance(child, TimelineBlock):
+                    child.deleteLater()
+            
+            # --- Résolution et Tri des ancres ---
+            anchors = []
+            used_ids = set()
+            # On ajoute l'historique récent aux IDs utilisés
+            try:
+                with open("historique_diffusion.json", "r") as f:
+                    hist = json.load(f)
+                    for entry in hist[-3:]:
+                        used_ids.update(entry.get("track_ids", []))
+            except: pass
+
+            for item in suggested_playlist:
+                tid = item.get('id')
+                time = float(item.get('start_minute', 0))
+                genre = item.get('fill_genre')
+                found = self.find_track_in_lib(tid, item.get('titre'))
+                if found:
+                    anchors.append({
+                        "track": found,
+                        "start_min": time,
+                        "fill_genre": genre
+                    })
+                    used_ids.add(found['id'])
+            
+            anchors.sort(key=lambda x: x['start_min'])
+            
+            if not anchors:
+                QMessageBox.warning(self, "IA", "Aucun morceau directeur valide n'a été trouvé.")
+                return
+
+            # --- Remplissage Hybride ---
+            start_total = self.ai_worker.start_hour * 60
+            duration_total = self.ai_worker.duration_hours * 60
+            end_total = start_total + duration_total
+            
+            count = 0
+            current_time = start_total
+            
+            def add_block(track, time):
+                nonlocal count
+                track_data = track.copy()
+                track_data['start_minute'] = time
+                block = TimelineBlock(track_data, self.canvas)
+                y_pos = int(time * PIXELS_PER_MINUTE)
+                block.setGeometry(TIMELINE_WIDTH + 10, y_pos, self.canvas.width() - TIMELINE_WIDTH - 20, block.height())
+                block.show()
+                count += 1
+                return track['duree'] / 60.0
+
+            # Remplissage par segments
+            for i, anchor in enumerate(anchors):
+                # 1. Remplissage AVANT l'ancre si possible (avec le genre de l'ancre précédente ou défaut)
+                # On simplifie : on saute jusqu'à l'heure de l'ancre si current_time < anchor_start
+                # Mais si on veut remplir, on le fait. Ici, on va d'abord placer l'ancre si on est à son heure
+                
+                if current_time < anchor['start_min']:
+                    # On remplit le vide avant l'ancre
+                    # Quel genre ? On prend celui de l'ancre si pas de précédente
+                    genre_to_use = anchors[i-1]['fill_genre'] if i > 0 else anchor['fill_genre']
+                    
+                    while current_time < anchor['start_min'] - 2: # Marge de 2 min
+                        next_track = self.pick_random_track(genre_to_use, used_ids)
+                        if not next_track: break
+                        
+                        # Si le morceau dépasse l'ancre, on s'arrête ou on cherche plus court ?
+                        # On simplifie : on le met
+                        dur = add_block(next_track, current_time)
+                        used_ids.add(next_track['id'])
+                        current_time += dur
+                
+                # 2. Placer l'ancre (en s'assurant de ne pas chevaucher si on a trop rempli)
+                current_time = max(current_time, anchor['start_min'])
+                dur_anchor = add_block(anchor['track'], current_time)
+                current_time += dur_anchor
+
+            # 3. Remplissage Final jusqu'à la fin de la durée demandée
+            last_genre = anchors[-1]['fill_genre']
+            while current_time < end_total - 2:
+                next_track = self.pick_random_track(last_genre, used_ids)
+                if not next_track: break
+                dur = add_block(next_track, current_time)
+                used_ids.add(next_track['id'])
+                current_time += dur
+
+            QMessageBox.information(self, "IA", f"L'IA a généré une structure complète avec {count} titres.")
+
+    def pick_random_track(self, genre, used_ids):
+        import random
+        # 1. Chercher dans le genre demandé
+        candidates = []
+        if genre in self.playlists_data:
+            candidates = [t for t in self.playlists_data[genre].get("tracks", []) if t['id'] not in used_ids]
+        
+        # 2. Fallback sur n'importe quel genre si vide
+        if not candidates:
+            for g in self.playlists_data.keys():
+                candidates.extend([t for t in self.playlists_data[g].get("tracks", []) if t['id'] not in used_ids])
+        
+        if candidates:
+            return random.choice(candidates)
+        return None
+
+    def find_track_in_lib(self, track_id, track_title=None):
+        for playlist_name, data in self.playlists_data.items():
+            for track in data.get("tracks", []):
+                # Match exact par ID
+                if track["id"] == track_id:
+                    track['playlist'] = playlist_name
+                    return track
+                # Match par titre si l'IA s'est trompée d'ID mais a donné le bon nom
+                if track_title and track_title.lower() in track["titre"].lower():
+                    track['playlist'] = playlist_name
+                    return track
+        return None
 
     def charger_playlist_existante(self):
         path = "playlist_radio.json"
@@ -527,7 +900,33 @@ class RadioPlannerApp(QMainWindow):
         
         with open("playlist_radio.json", "w", encoding="utf-8") as f:
             json.dump(playlist_finale, f, indent=4, ensure_ascii=False)
-        QMessageBox.information(self, "Succès", "Planning sauvegardé dans playlist_radio.json !")
+            
+        # --- MISE À JOUR DE L'HISTORIQUE ---
+        self.update_history(playlist_finale)
+        
+        QMessageBox.information(self, "Succès", "Planning sauvegardé et historique mis à jour !")
+
+    def update_history(self, playlist):
+        import datetime
+        path = "historique_diffusion.json"
+        today = datetime.datetime.now().strftime("%Y-%m-%d")
+        ids = [t['id'] for t in playlist]
+        
+        history = []
+        if os.path.exists(path):
+            try:
+                with open(path, "r", encoding="utf-8") as f:
+                    history = json.load(f)
+            except: pass
+        
+        # On ajoute le jour actuel
+        history.append({"date": today, "track_ids": ids})
+        
+        # On ne garde que les 30 derniers jours pour pas que le fichier soit trop lourd
+        history = history[-30:]
+        
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(history, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

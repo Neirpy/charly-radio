@@ -1,0 +1,13 @@
+{
+    "standard_day_rules": "Le matin (08h-11h) est calme et instrumental. Le midi (11h-14h) est plus énergique. L'après-midi (14h-18h) est productif et entraînant. La soirée (18h-00h) est festive avec de la House et du Groove. La nuit (00h-08h) est calme ou lo-fi.",
+    "weekly_moods": {
+        "Lundi": "Concentration et calme pour bien commencer la semaine.",
+        "Mardi": "Rythmé et Groove pour garder le cap.",
+        "Mercredi": "Variété et découvertes.",
+        "Jeudi": "Électronique et House en montée de puissance.",
+        "Vendredi": "Weekend vibes, très festif et énergique.",
+        "Samedi": "Détente et fête toute la journée.",
+        "Dimanche": "Chill-out total, lo-fi et jazz."
+    },
+    "history_duration_days": 7
+}
