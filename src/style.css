@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
 
 :root {
-    /* Couleurs CMJN ultra saturées typiques Riso */
+    /* Couleurs RISO de base */
     --riso-pink: #ff48b0;
     --riso-blue: #00a4e4;
     --riso-yellow: #fff000;
-    --bg-paper: #f4f1ea; /* Couleur papier crème */
+
+    /* Thème CLAIR (Par défaut) */
+    --bg-paper: #f4f1ea;
     --text-ink: #1a1a1a;
+    --item-bg: #ffffff;
+    --noise-opacity: 0.08;
+    --shadow-intensity: rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Thème SOMBRE */
+        --bg-paper: #121214;
+        --text-ink: #f4f1ea;
+        --item-bg: #1c1c1e;
+        --noise-opacity: 0.12;
+        --shadow-intensity: rgba(0,0,0,0.5);
+    }
 }
 
 body {
@@ -23,6 +39,7 @@ body {
     overflow-y: auto;
     position: relative;
     box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 *, *::before, *::after {
@@ -35,7 +52,8 @@ body::before {
     position: absolute;
     top: 0; left: 0; width: 100vw; height: 100vh;
     pointer-events: none;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.08'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='1'/%3E%3C/svg%3E");
+    opacity: var(--noise-opacity);
     z-index: 10;
 }
 
@@ -45,12 +63,18 @@ body::before {
     padding: 3rem;
     border: 4px solid var(--text-ink);
     background: var(--bg-paper);
-    /* L'effet de décalage d'impression */
     box-shadow: 8px 8px 0px var(--riso-pink), -8px -8px 0px var(--riso-blue);
-    mix-blend-mode: multiply;
     width: 95%;
     max-width: 700px;
     margin: 20px auto;
+    transition: all 0.3s ease;
+}
+
+/* Mode sombre spécifique pour l'effet Risograph (mix-blend-mode peut varier) */
+@media (prefers-color-scheme: light) {
+    #ecran-accueil, #lecteur-container {
+        mix-blend-mode: multiply;
+    }
 }
 
 h1, h2 {
@@ -59,11 +83,9 @@ h1, h2 {
     margin-bottom: 2rem;
     line-height: 1.1;
     letter-spacing: -1px;
-    /* Ombre jaune décalée */
     text-shadow: 4px 4px 0px var(--riso-yellow);
 }
 
-/* Le gros bouton d'action */
 button {
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.5rem;
@@ -81,10 +103,9 @@ button {
 
 button:hover {
     background-color: var(--riso-pink);
-    color: var(--bg-paper);
+    color: white;
 }
 
-/* L'effet bouton physique qu'on enfonce */
 button:active {
     transform: translate(6px, 6px);
     box-shadow: 0px 0px 0px var(--text-ink);
@@ -93,7 +114,7 @@ button:active {
 #lecteur-youtube {
     border: 4px solid var(--text-ink);
     box-shadow: 8px 8px 0px var(--riso-yellow);
-    background: var(--text-ink); /* Cache le fond avant chargement */
+    background: #000;
     width: 100%;
     aspect-ratio: 16 / 9;
 }
@@ -108,7 +129,7 @@ button:active {
 }
 
 #planning-container h3 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     background-color: var(--riso-blue);
     color: white;
@@ -129,10 +150,11 @@ button:active {
     align-items: center;
     gap: 15px;
     padding: 10px;
-    background: white;
+    background: var(--item-bg);
     border: 2px solid var(--text-ink);
     box-shadow: 4px 4px 0px var(--riso-yellow);
-    transition: transform 0.2s ease;
+    transition: all 0.2s ease;
+    color: var(--text-ink);
 }
 
 .planning-item.active {
@@ -170,7 +192,7 @@ button:active {
     }
 
     #planning-container {
-        max-height: none; /* Défile avec la page sur mobile */
+        max-height: none;
     }
 }
 
