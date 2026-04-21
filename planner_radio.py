@@ -605,7 +605,14 @@ class RadioPlannerApp(QMainWindow):
         btn_export = QPushButton("💾 Sauvegarder la Grille")
         btn_export.setObjectName("ActionBtn")
         btn_export.clicked.connect(self.generer_json)
+        
+        btn_clear_grid = QPushButton("🗑️ Effacer la Grille")
+        btn_clear_grid.setObjectName("ActionBtn")
+        btn_clear_grid.setStyleSheet("background-color: #ff3b30; color: white;")
+        btn_clear_grid.clicked.connect(self.clear_canvas)
+        
         header_row.addWidget(btn_export)
+        header_row.addWidget(btn_clear_grid)
         prog_layout.addLayout(header_row)
 
         self.scroll_area = QScrollArea()
@@ -654,10 +661,17 @@ class RadioPlannerApp(QMainWindow):
                                     QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
         
         if repl == QMessageBox.StandardButton.Yes:
-            # On vide tout proprement
+            # Calcul de la zone temporelle visée
+            start_total = self.ai_worker.start_hour * 60
+            duration_total = self.ai_worker.duration_hours * 60
+            end_total = start_total + duration_total
+
+            # On ne supprime QUE ce qui est dans la zone temporelle visée
             for child in self.canvas.children():
                 if isinstance(child, TimelineBlock):
-                    child.deleteLater()
+                    block_start = child.track_info.get('start_minute', 0)
+                    if block_start >= start_total and block_start < end_total:
+                        child.deleteLater()
             
             # --- Résolution et Tri des ancres ---
             anchors = []
@@ -760,6 +774,15 @@ class RadioPlannerApp(QMainWindow):
         if candidates:
             return random.choice(candidates)
         return None
+
+    def clear_canvas(self):
+        repl = QMessageBox.question(self, "Confirmer", "Voulez-vous vraiment effacer TOUT le planning ?",
+                                    QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
+        if repl == QMessageBox.StandardButton.Yes:
+            for child in self.canvas.children():
+                if isinstance(child, TimelineBlock):
+                    child.deleteLater()
+            self.statusBar().showMessage("Grille effacée.")
 
     def find_track_in_lib(self, track_id, track_title=None):
         for playlist_name, data in self.playlists_data.items():
