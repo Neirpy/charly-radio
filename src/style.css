@@ -19,8 +19,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     position: relative;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 /* Le grain de papier Risograph */
@@ -42,7 +48,9 @@ body::before {
     /* L'effet de décalage d'impression */
     box-shadow: 8px 8px 0px var(--riso-pink), -8px -8px 0px var(--riso-blue);
     mix-blend-mode: multiply;
+    width: 95%;
     max-width: 700px;
+    margin: 20px auto;
 }
 
 h1, h2 {
@@ -86,4 +94,88 @@ button:active {
     border: 4px solid var(--text-ink);
     box-shadow: 8px 8px 0px var(--riso-yellow);
     background: var(--text-ink); /* Cache le fond avant chargement */
+    width: 100%;
+    aspect-ratio: 16 / 9;
+}
+
+#planning-container {
+    margin-top: 2rem;
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+    border-top: 4px solid var(--text-ink);
+    padding-top: 1rem;
+}
+
+#planning-container h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    background-color: var(--riso-blue);
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+    margin-bottom: 1rem;
+    box-shadow: 4px 4px 0px var(--text-ink);
+}
+
+#planning-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.planning-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background: white;
+    border: 2px solid var(--text-ink);
+    box-shadow: 4px 4px 0px var(--riso-yellow);
+    transition: transform 0.2s ease;
+}
+
+.planning-item.active {
+    background-color: var(--riso-pink);
+    color: white;
+    border-left: 8px solid var(--text-ink);
+    box-shadow: 4px 4px 0px var(--text-ink);
+}
+
+.planning-item .item-time {
+    font-weight: bold;
+    min-width: 60px;
+}
+
+.planning-item .item-title {
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+}
+
+/* ==========================================
+   MOBILE ADJUSTMENTS
+   ========================================== */
+@media (max-width: 600px) {
+    #ecran-accueil, #lecteur-container {
+        padding: 1.5rem;
+        margin: 10px auto;
+        width: 95%;
+    }
+    
+    h1, h2 {
+        font-size: 1.8rem;
+    }
+
+    #planning-container {
+        max-height: none; /* Défile avec la page sur mobile */
+    }
+}
+
+@media (min-width: 768px) {
+    #lecteur-container {
+        max-width: 800px;
+    }
 }

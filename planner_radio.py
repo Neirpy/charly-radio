@@ -333,6 +333,11 @@ class RadioPlannerApp(QMainWindow):
         yt_layout.addWidget(self.url_input)
         yt_layout.addWidget(btn_add)
         lib_layout.addLayout(yt_layout)
+        
+        btn_load = QPushButton("📂 Charger la Playlist Actuelle")
+        btn_load.clicked.connect(self.charger_playlist_existante)
+        btn_load.setStyleSheet("background-color: #6c757d; color: white; font-weight: bold; padding: 10px; border-radius: 8px; margin-bottom: 10px;")
+        lib_layout.addWidget(btn_load)
 
         # Ligne Combobox + Boutons Actions
         combo_layout = QHBoxLayout()
@@ -395,6 +400,33 @@ class RadioPlannerApp(QMainWindow):
             self.combo_playlists.addItem(nom)
         if self.playlists_data:
             self.switch_playlist()
+
+    def charger_playlist_existante(self):
+        path = "playlist_radio.json"
+        if not os.path.exists(path):
+            QMessageBox.warning(self, "Erreur", "Le fichier playlist_radio.json n'existe pas.")
+            return
+        
+        # On vide tout proprement
+        for child in self.canvas.children():
+            if isinstance(child, TimelineBlock):
+                child.deleteLater()
+        
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                count = 0
+                for track in data:
+                    start_min = track.get('start_minute')
+                    if start_min is not None:
+                        block = TimelineBlock(track, self.canvas)
+                        y_pos = int(start_min * PIXELS_PER_MINUTE)
+                        block.setGeometry(TIMELINE_WIDTH + 10, y_pos, self.canvas.width() - TIMELINE_WIDTH - 20, block.height())
+                        block.show()
+                        count += 1
+            QMessageBox.information(self, "Succès", f"{count} titres chargés avec succès !")
+        except Exception as e:
+            QMessageBox.critical(self, "Erreur", f"Échec du chargement : {str(e)}")
 
     # --- NOUVELLE FONCTION : SUPPRIMER PLAYLIST ---
     def supprimer_playlist_courante(self):
