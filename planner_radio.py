@@ -675,13 +675,15 @@ class RadioPlannerApp(QMainWindow):
             
             # --- Résolution et Tri des ancres ---
             anchors = []
-            used_ids = set()
+            used_ids = []  # Liste pour garder l'ordre (pour permettre des répétitions si besoin)
+            
             # On ajoute l'historique récent aux IDs utilisés
             try:
                 with open("historique_diffusion.json", "r") as f:
                     hist = json.load(f)
                     for entry in hist[-3:]:
-                        used_ids.update(entry.get("track_ids", []))
+                        for tid in entry.get("track_ids", []):
+                            if tid not in used_ids: used_ids.append(tid)
             except: pass
 
             for item in suggested_playlist:
@@ -695,7 +697,7 @@ class RadioPlannerApp(QMainWindow):
                         "start_min": time,
                         "fill_genre": genre
                     })
-                    used_ids.add(found['id'])
+                    if found['id'] not in used_ids: used_ids.append(found['id'])
             
             anchors.sort(key=lambda x: x['start_min'])
             
@@ -740,7 +742,7 @@ class RadioPlannerApp(QMainWindow):
                         # Si le morceau dépasse l'ancre, on s'arrête ou on cherche plus court ?
                         # On simplifie : on le met
                         dur = add_block(next_track, current_time)
-                        used_ids.add(next_track['id'])
+                        if next_track['id'] not in used_ids: used_ids.append(next_track['id'])
                         current_time += dur
                 
                 # 2. Placer l'ancre (en s'assurant de ne pas chevaucher si on a trop rempli)
@@ -754,7 +756,7 @@ class RadioPlannerApp(QMainWindow):
                 next_track = self.pick_random_track(last_genre, used_ids)
                 if not next_track: break
                 dur = add_block(next_track, current_time)
-                used_ids.add(next_track['id'])
+                if next_track['id'] not in used_ids: used_ids.append(next_track['id'])
                 current_time += dur
 
             QMessageBox.information(self, "IA", f"L'IA a généré une structure complète avec {count} titres.")
@@ -771,6 +773,27 @@ class RadioPlannerApp(QMainWindow):
             for g in self.playlists_data.keys():
                 candidates.extend([t for t in self.playlists_data[g].get("tracks", []) if t['id'] not in used_ids])
         
+        # 3. Si TOUT est épuisé, on autorise les répétitions (sauf pour les sons > 20 min)
+        if not candidates and len(used_ids) > 0:
+            print("DEBUG: Bibliothèque épuisée, on autorise des répétitions...")
+            # On retire les 50 plus anciens morceaux de l'historique pour les rendre à nouveau disponibles
+            # MAIS on garde les morceaux longs (> 20 min = 1200 sec) dans used_ids pour ne jamais les répéter
+            long_tracks = set()
+            for g in self.playlists_data.values():
+                for t in g.get("tracks", []):
+                    if t.get('duree', 0) > 1200:
+                        long_tracks.add(t['id'])
+            
+            # On garde les longs + les 30 plus récents
+            recent_to_keep = used_ids[-30:]
+            used_ids.clear()
+            for tid in long_tracks: used_ids.append(tid)
+            for tid in recent_to_keep:
+                if tid not in used_ids: used_ids.append(tid)
+                
+            # On relance la recherche avec le filtre allégé
+            return self.pick_random_track(genre, used_ids)
+            
         if candidates:
             return random.choice(candidates)
         return None
