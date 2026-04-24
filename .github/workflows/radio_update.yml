@@ -2,7 +2,7 @@ name: Programmateur Radio Auto (IA)
 
 on:
   schedule:
-    - cron: '55 22 * * *' # S'exécute tous les jours à minuit (Heure UTC)
+    - cron: '0 0 * * *' # S'exécute tous les jours à minuit (Heure UTC)
   workflow_dispatch: # Permet d'avoir un bouton "Run workflow" manuel sur GitHub
 
 jobs:
