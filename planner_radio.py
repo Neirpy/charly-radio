@@ -253,7 +253,7 @@ class AIGenerationDialog(QDialog):
         self.context_input.setPlaceholderText("Ex: Matinée calme, après-midi énergique avec du Groove...")
         layout.addWidget(self.context_input)
 
-        self.btn_generate = QPushButton("Lancer le calcul")
+        self.btn_generate = QPushButton("Lancer la programmation")
         self.btn_generate.setObjectName("GenBtn")
         self.btn_generate.clicked.connect(self.accept)
         layout.addWidget(self.btn_generate)

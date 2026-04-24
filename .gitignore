@@ -1,0 +1,13 @@
+# Fichiers d'environnement (NE JAMAIS COMMITER)
+.env
+
+# Dossiers d'environnement virtuel Python
+venv/
+env/
+
+# Mac OS
+.DS_Store
+
+# Fichiers temporaires ou générés (optionnel, selon tes besoins)
+__pycache__/
+*.pyc

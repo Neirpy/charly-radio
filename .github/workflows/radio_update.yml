@@ -1,0 +1,47 @@
+name: Programmateur Radio Auto (IA)
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # S'exécute tous les jours à minuit (Heure UTC)
+  workflow_dispatch: # Permet d'avoir un bouton "Run workflow" manuel sur GitHub
+
+jobs:
+  generer-playlist:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Obligatoire pour autoriser le bot à faire le 'git push'
+
+    steps:
+      - name: 📥 Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: 🐍 Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # Version stable et récente
+
+      - name: 📦 Installer les dépendances
+        # On installe exactement ce que ton script 'import'
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-dotenv google-genai
+
+      - name: 🧠 Exécuter le script IA (Génération 24h)
+        # On passe la clé secrète au script via l'environnement virtuel
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # /!\ Remplace 'generer_radio.py' par le vrai nom de ton fichier Python
+        run: python generer_radio.py 
+
+      - name: 💾 Sauvegarder et déployer (Git Push)
+        run: |
+          git config --global user.name 'Charly Radio Bot'
+          git config --global user.email 'bot@charly-radio.com'
+          
+          # On ajoute spécifiquement les deux fichiers modifiés par ton script
+          git add playlist_radio.json historique_diffusion.json
+          
+          # On commit. Le '|| true' évite que l'action plante si les fichiers n'ont pas changé par miracle
+          git commit -m "🤖 Prog Auto : Nouvelle grille 24h & Historique à jour" || true
+          
+          git push
