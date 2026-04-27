@@ -14,16 +14,7 @@
     --shadow-intensity: rgba(0,0,0,0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        /* Thème SOMBRE */
-        --bg-paper: #121214;
-        --text-ink: #f4f1ea;
-        --item-bg: #1c1c1e;
-        --noise-opacity: 0.12;
-        --shadow-intensity: rgba(0,0,0,0.5);
-    }
-}
+
 
 body {
     margin: 0;
@@ -70,11 +61,9 @@ body::before {
     transition: all 0.3s ease;
 }
 
-/* Mode sombre spécifique pour l'effet Risograph (mix-blend-mode peut varier) */
-@media (prefers-color-scheme: light) {
-    #ecran-accueil, #lecteur-container {
-        mix-blend-mode: multiply;
-    }
+/* Effet Risograph (mix-blend-mode) */
+#ecran-accueil, #lecteur-container {
+    mix-blend-mode: multiply;
 }
 
 h1, h2 {

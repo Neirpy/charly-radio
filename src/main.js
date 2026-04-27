@@ -2,6 +2,7 @@ import playlist from '../playlist_radio.json';
 
 let player;
 let syncInterval;
+let currentActiveId = null;
 
 // Initialisation de l'API YouTube
 window.onYouTubeIframeAPIReady = function() {
@@ -69,6 +70,9 @@ function renderPlanning() {
 }
 
 function updatePlanningActive(activeId) {
+    if (activeId === currentActiveId) return;
+    currentActiveId = activeId;
+
     // Retirer la classe active de tous les items
     document.querySelectorAll('.planning-item').forEach(item => {
         item.classList.remove('active');
