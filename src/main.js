@@ -2,7 +2,7 @@ import playlist from '../playlist_radio.json';
 
 let player;
 let syncInterval;
-let currentActiveId = null;
+let currentActiveIndex = null;
 
 // Initialisation de l'API YouTube
 window.onYouTubeIframeAPIReady = function() {
@@ -69,19 +69,17 @@ function renderPlanning() {
     });
 }
 
-function updatePlanningActive(activeId) {
-    if (activeId === currentActiveId) return;
-    currentActiveId = activeId;
+function updatePlanningActive(activeIndex) {
+    if (activeIndex === currentActiveIndex) return;
+    currentActiveIndex = activeIndex;
 
     // Retirer la classe active de tous les items
     document.querySelectorAll('.planning-item').forEach(item => {
         item.classList.remove('active');
     });
     
-    // Trouver l'index du morceau actif dans la playlist
-    const index = playlist.findIndex(t => t.id === activeId);
-    if (index !== -1) {
-        const activeItem = document.getElementById(`track-${index}`);
+    if (activeIndex !== null && activeIndex !== -1) {
+        const activeItem = document.getElementById(`track-${activeIndex}`);
         if (activeItem) {
             activeItem.classList.add('active');
             // Auto-scroll vers l'élément actif
@@ -96,14 +94,15 @@ function lancerRadioSynchro() {
     const now = new Date();
     const secondsSinceMidnight = now.getHours() * 3600 + now.getMinutes() * 60 + now.getSeconds();
     
-    const currentTrack = playlist.find(track => {
+    const currentIndex = playlist.findIndex(track => {
         const start = track.start_minute * 60;
         const end = start + track.duree;
         return secondsSinceMidnight >= start && secondsSinceMidnight < end;
     });
+    const currentTrack = currentIndex !== -1 ? playlist[currentIndex] : null;
 
     if (currentTrack) {
-        updatePlanningActive(currentTrack.id);
+        updatePlanningActive(currentIndex);
         const startOffset = Math.floor(secondsSinceMidnight - (currentTrack.start_minute * 60));
         
         const videoData = player.getVideoData();
