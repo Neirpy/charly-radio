@@ -1,5 +1,6 @@
 import json
 import os
+import time
 import random
 import re
 from datetime import datetime
@@ -86,26 +87,37 @@ prompt = (
 
 # --- 5. GÉNÉRATION ---
 print(f"🧠 Demande à Gemini en cours pour le {day_name} (Modèle: gemma-4-26b-a4b-it)...")
-try:
-    response = client.models.generate_content(
-        model='gemma-4-26b-a4b-it',
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            response_mime_type="application/json",
-        ),
-    )
-    
-    # Extraction propre du JSON
-    raw_text = response.text.strip()
-    if raw_text.startswith("```json"):
-        raw_text = raw_text[7:]
-    if raw_text.endswith("```"):
-        raw_text = raw_text[:-3]
+max_retries = 5
+base_delay = 5  # secondes
+
+for attempt in range(max_retries):
+    try:
+        response = client.models.generate_content(
+            model='gemma-4-26b-a4b-it',
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+            ),
+        )
         
-    suggested_playlist = json.loads(raw_text.strip())
-except Exception as e:
-    print(f"❌ Erreur lors de la génération avec l'API : {e}")
-    exit(1)
+        # Extraction propre du JSON
+        raw_text = response.text.strip()
+        if raw_text.startswith("```json"):
+            raw_text = raw_text[7:]
+        if raw_text.endswith("```"):
+            raw_text = raw_text[:-3]
+            
+        suggested_playlist = json.loads(raw_text.strip())
+        break  # Succès, on sort de la boucle
+    except Exception as e:
+        if attempt < max_retries - 1:
+            delay = base_delay * (2 ** attempt)  # Backoff exponentiel
+            print(f"⚠️ Erreur avec l'API : {e}")
+            print(f"🔄 Nouvelle tentative dans {delay} secondes... ({attempt + 1}/{max_retries - 1})")
+            time.sleep(delay)
+        else:
+            print(f"❌ Erreur lors de la génération avec l'API après {max_retries} tentatives : {e}")
+            exit(1)
 
 # --- 6. RÉSOLUTION ET REMPLISSAGE HYBRIDE ---
 def find_track_in_lib(tid, ttitle):
