@@ -1,1451 +1,1976 @@
 [
     {
-        "duree": 215,
-        "id": "1bDuNZpIFOw",
-        "titre": "Men I Trust - Show Me How",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 0
-    },
-    {
-        "duree": 8351,
-        "id": "VMEDS1IeuFQ",
-        "playlist": "CHARLY-CHILL",
-        "titre": "2 Hours Of The BEST Chill Jazz Funk Background Music To Stay Chill",
-        "start_minute": 3.5833333333333335
-    },
-    {
-        "duree": 3941,
-        "id": "WO7XZZAN95k",
-        "playlist": "CHARLY-CHILL",
-        "titre": "¸.·✩·.¸¸.·¯⍣✩ 𝓹𝓾𝓯𝓯 𝓽𝓱𝓮 𝓶𝓪𝓰𝓲𝓬 ✩⍣¯·.¸¸.·✩·.¸",
-        "start_minute": 142.76666666666668
-    },
-    {
-        "duree": 3612,
-        "id": "cGnC2-Hl3Eg",
-        "titre": "House | Piano House | Deep House | Coffee Room #9 by Dr Zilter Michael Gray Robosonic HOSH Sonique",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 208.45000000000002
-    },
-    {
-        "duree": 436,
-        "id": "0RXdd0pCJ9Q",
-        "titre": "DWIG - Orange Evening // Laut & Luise (LUL007)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 268.65000000000003
-    },
-    {
-        "duree": 1540,
-        "id": "cMIJsoaxRjk",
-        "titre": "Justin Timberlake: Tiny Desk Concert",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 275.9166666666667
-    },
-    {
-        "duree": 3192,
-        "id": "BQCXV4ekAFE",
-        "titre": "Feel Good Nights 004 | Disco House DJ Mix | Never Dull Full DJ Set",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 301.58333333333337
-    },
-    {
-        "duree": 5766,
-        "id": "WbhOCNjMXD4",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Funky House Music & Outdoor Cooking in Paradise - Flavour Trip Playlist | Good Vibes Dance Mix",
-        "start_minute": 354.78333333333336
-    },
-    {
-        "duree": 4281,
-        "id": "z5PATyME8tY",
-        "titre": "Smooth Funky City Pop on vinyl, シティ・ポップ, Clássicos da MPB with Bobby Ghanoush",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 450.8833333333333
-    },
-    {
         "duree": 326,
         "id": "eK5ozrSgqeI",
         "titre": "Passing Breeze from \"Outrun\" - Big Band Jazz version (The 8-Bit Big Band)",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 522.2333333333333
+        "start_minute": 0
     },
     {
-        "duree": 4541,
-        "id": "gtKW6c6K-eI",
-        "titre": "IN HOUSE MUSIC WE TRUST",
+        "duree": 4005,
+        "id": "RJUvNVCqtpI",
+        "titre": "(a). sip",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 527.6666666666666
+        "start_minute": 5.433333333333334
     },
     {
-        "duree": 262,
-        "id": "RyE7R5fgR60",
-        "titre": "Tom Misch - 'It Runs Through Me' (Feat. De La Soul)",
+        "duree": 3779,
+        "id": "lK0sUU0K5SY",
+        "playlist": "Charly-WhiteGirl",
+        "titre": "Ultra Masculine Whitegirl Playlist while you're on your way to testicular torsion surgery",
+        "start_minute": 72.18333333333334
+    },
+    {
+        "duree": 7020,
+        "id": "S2dNJvtTo7Q",
+        "titre": "Study with Me in Skyrim | Forests of Falkreath | 25/5 Pomodoro Timer [2hr] [4K]",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 603.3499999999999
-    },
-    {
-        "duree": 8652,
-        "id": "PLUZDtJCdDM",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "i hijacked a car and this is what i found in the CD player [Hard House]",
-        "start_minute": 607.7166666666666
-    },
-    {
-        "duree": 203,
-        "id": "CEw-7cMnBDY",
-        "titre": "Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 751.9166666666665
-    },
-    {
-        "duree": 235,
-        "id": "4JkIs37a2JE",
-        "titre": "Jamiroquai - Virtual Insanity (Official Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 755.2999999999998
-    },
-    {
-        "duree": 286,
-        "id": "ddZb5LIggzs",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "The Grid Generation (feat. Louis Cole)",
-        "start_minute": 759.2166666666665
-    },
-    {
-        "duree": 248,
-        "id": "zYV6zZc_9jI",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Give It To Me Baby",
-        "start_minute": 763.9833333333331
-    },
-    {
-        "duree": 195,
-        "id": "RBR1DFcyqgY",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Welcome To The Disco",
-        "start_minute": 768.1166666666664
-    },
-    {
-        "duree": 173,
-        "id": "O_n_0whrgWc",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "WO:OO",
-        "start_minute": 771.3666666666664
-    },
-    {
-        "duree": 307,
-        "id": "MR3uP7IYz44",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Lady (Hear Me Tonight)",
-        "start_minute": 774.2499999999998
-    },
-    {
-        "duree": 155,
-        "id": "6okxuiiHx2w",
-        "titre": "Breakbot - Baby I'm Yours (feat. Irfane) [Official Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 780.0
-    },
-    {
-        "duree": 242,
-        "id": "N0TA8xXWSqE",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Smooth Operator - TikTok Remix",
-        "start_minute": 782.5833333333334
-    },
-    {
-        "duree": 252,
-        "id": "m5MM_QSiYM8",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Ariane",
-        "start_minute": 786.6166666666667
-    },
-    {
-        "duree": 210,
-        "id": "PHW3GmSPwzU",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "NIGHT DANCER (BIG Naughty Remix)",
-        "start_minute": 790.8166666666667
-    },
-    {
-        "duree": 244,
-        "id": "SunvrwYCvpU",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Cowboy Bebop - Tank! (Bass Cover) (Play Along Tabs In Video)",
-        "start_minute": 794.3166666666667
-    },
-    {
-        "duree": 188,
-        "id": "euYS4ldiMjc",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Bad Boy",
-        "start_minute": 798.3833333333334
-    },
-    {
-        "duree": 191,
-        "id": "JT0MFh1TqMI",
-        "playlist": "CHARLY-HOUSE",
-        "titre": "Leurs Bails",
-        "start_minute": 801.5166666666668
-    },
-    {
-        "duree": 255,
-        "id": "ZUwaudw8ht0",
-        "playlist": "Charly-JPOP",
-        "titre": "ずっと真夜中でいいのに。『あいつら全員同窓会』MV (ZUTOMAYO - Inside Joke)",
-        "start_minute": 804.7
-    },
-    {
-        "duree": 242,
-        "id": "Ic5vxw3eijY",
-        "playlist": "Charly-RapPop",
-        "titre": "Estelle - American Boy [Feat. Kanye West] [Video]",
-        "start_minute": 808.95
-    },
-    {
-        "duree": 134,
-        "id": "eqjFmsZGBSc",
-        "playlist": "Charly-JPOP",
-        "titre": "Kaguya-sama: Love is War Ending 2 (4k 60FPS)┃Creditless",
-        "start_minute": 812.9833333333333
-    },
-    {
-        "duree": 97,
-        "id": "6BrHcmH3Gyk",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』6期第1クールノンクレジットオープニング映像／OPテーマ：「ひたむき」SUPER BEAVER／ヒロアカOP",
-        "start_minute": 815.2166666666667
-    },
-    {
-        "duree": 282,
-        "id": "vk6014HuxcE",
-        "playlist": "Charly-RapPop",
-        "titre": "JAŸ-Z - Empire State Of Mind ft. Alicia Keys",
-        "start_minute": 816.8333333333334
-    },
-    {
-        "duree": 167,
-        "id": "jj88i2vhdcg",
-        "playlist": "Charly-RapPop",
-        "titre": "Vladimir Cauchemar & Vald - Elévation (Official Music Video)",
-        "start_minute": 821.5333333333334
-    },
-    {
-        "duree": 170,
-        "id": "DiTd771WumE",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "APT.",
-        "start_minute": 824.3166666666667
-    },
-    {
-        "duree": 203,
-        "id": "rIcwQ-Jy9sE",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Operaz (feat. Youthstar, ASM)",
-        "start_minute": 827.1500000000001
-    },
-    {
-        "duree": 198,
-        "id": "KEG7b851Ric",
-        "playlist": "Charly-RapPop",
-        "titre": "Sabrina Carpenter - Taste (Official Video)",
-        "start_minute": 830.5333333333334
-    },
-    {
-        "duree": 177,
-        "id": "rE36juT-NVg",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Everything Eventually Ends",
-        "start_minute": 833.8333333333334
-    },
-    {
-        "duree": 96,
-        "id": "MdfFVdFWl1U",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』4期第クール「文化祭編」ノンクレジットOP映像／OPテーマ：「スターマーカー」KANA-BOON／ヒロアカOP",
-        "start_minute": 836.7833333333334
-    },
-    {
-        "duree": 265,
-        "id": "FxzBvqY5PP0",
-        "titre": "Daft Punk - Digital Love (Official Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 840.0
-    },
-    {
-        "duree": 246,
-        "id": "GsYzuUt_QPE",
-        "playlist": "Charly-RapPop",
-        "titre": "Jimmy Punchline",
-        "start_minute": 844.4166666666666
-    },
-    {
-        "duree": 160,
-        "id": "OeaUG189ojU",
-        "playlist": "Charly-RapPop",
-        "titre": "Yung Gravy, bbno$, Rich Brian - C'est La Vie (Lyric Video)",
-        "start_minute": 848.5166666666667
-    },
-    {
-        "duree": 253,
-        "id": "KMdTrqzEI0I",
-        "playlist": "CHARLY-LOVE",
-        "titre": "恋",
-        "start_minute": 851.1833333333333
-    },
-    {
-        "duree": 166,
-        "id": "WdzRZt-srpY",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Deep Down",
-        "start_minute": 855.4
-    },
-    {
-        "duree": 95,
-        "id": "FNgZ72EV9ls",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』3期第1クールノンクレジットオープニング映像／OPテーマ：「ODD FUTURE」UVERworld／ヒロアカOP",
-        "start_minute": 858.1666666666666
-    },
-    {
-        "duree": 372,
-        "id": "48gaaQfS9lc",
-        "playlist": "Charly_Remix",
-        "titre": "(REMASTERED) Daft Punk - Veridis Quo x The Weeknd - In Your Eyes",
-        "start_minute": 859.75
-    },
-    {
-        "duree": 220,
-        "id": "Ojj8mR8PEbw",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Travelling Without Moving (Remastered 2013)",
-        "start_minute": 865.95
-    },
-    {
-        "duree": 147,
-        "id": "zNWO0dXoQhc",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Lost & Dizzy",
-        "start_minute": 869.6166666666667
-    },
-    {
-        "duree": 237,
-        "id": "fWlvNwdAoAc",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Cloud 9",
-        "start_minute": 872.0666666666667
-    },
-    {
-        "duree": 176,
-        "id": "O2tKlnfrLkY",
-        "playlist": "Charly-RapPop",
-        "titre": "melodrama",
-        "start_minute": 876.0166666666668
-    },
-    {
-        "duree": 305,
-        "id": "UgS7vgquBvo",
-        "playlist": "Charly-JPOP",
-        "titre": "KANA-BOON 『ないものねだり』Music Video",
-        "start_minute": 878.95
-    },
-    {
-        "duree": 191,
-        "id": "NoqKkw4azn8",
-        "titre": "Calipso",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 884.0333333333334
-    },
-    {
-        "duree": 203,
-        "id": "CEw-7cMnBDY",
-        "titre": "Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 887.2166666666667
-    },
-    {
-        "duree": 296,
-        "id": "pRo4oXEgk4g",
-        "playlist": "CHARLY-RUSH",
-        "titre": "我愛你",
-        "start_minute": 890.6
-    },
-    {
-        "duree": 110,
-        "id": "YoeP9w5UIlg",
-        "playlist": "Charly-JPOP",
-        "titre": "Opening Theme | We Are! | Hiroshi Kitadani",
-        "start_minute": 895.5333333333333
-    },
-    {
-        "duree": 169,
-        "id": "d2tnwgcBfoA",
-        "playlist": "Charly-RapPop",
-        "titre": "THEODORA - KONGOLESE SOUS BBL (FT. JEEZ SUAVE)",
-        "start_minute": 897.3666666666667
-    },
-    {
-        "duree": 164,
-        "id": "dybNNo8y48k",
-        "titre": "Breakbot - Another You (Feat. Ruckazoid) [Official Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 900.1833333333334
-    },
-    {
-        "duree": 203,
-        "id": "bsG6UFfemhU",
-        "titre": "Out Of Love",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 902.9166666666667
-    },
-    {
-        "duree": 102,
-        "id": "mhRj1b8hVMc",
-        "titre": "Dead Inside Shuffle - Louis Cole",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 906.3000000000001
-    },
-    {
-        "duree": 100,
-        "id": "umqzznKblJ0",
-        "playlist": "Charly-JPOP",
-        "titre": "Mob Psycho 100 III - Opening | 1",
-        "start_minute": 908.0000000000001
-    },
-    {
-        "duree": 185,
-        "id": "hrZduVyfoEs",
-        "titre": "Heavy, California",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 909.6666666666667
-    },
-    {
-        "duree": 181,
-        "id": "iZ0cGpcQ1oI",
-        "playlist": "Charly_Remix",
-        "titre": "Kaaris x Super Mario World - INTRO (Phonk Remix)",
-        "start_minute": 912.7500000000001
-    },
-    {
-        "duree": 193,
-        "id": "NMA_isZYsYQ",
-        "titre": "KICK BACK",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 915.7666666666668
-    },
-    {
-        "duree": 236,
-        "id": "aSugSGCC12I",
-        "playlist": "Charly-RapPop",
-        "titre": "Sabrina Carpenter - Manchild (Official Video)",
-        "start_minute": 918.9833333333335
-    },
-    {
-        "duree": 155,
-        "id": "6okxuiiHx2w",
-        "titre": "Breakbot - Baby I'm Yours (feat. Irfane) [Official Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 922.9166666666667
-    },
-    {
-        "duree": 156,
-        "id": "X-28YDdooCI",
-        "playlist": "Charly_Remix",
-        "titre": "Kendrick Lamar - M.A.A.D City (Brawl Remix with choir)",
-        "start_minute": 925.5000000000001
-    },
-    {
-        "duree": 189,
-        "id": "tYdwajzKMck",
-        "playlist": "Charly-RapPop",
-        "titre": "Casseurs Flowters Infinity",
-        "start_minute": 928.1000000000001
-    },
-    {
-        "duree": 93,
-        "id": "bzNXDsfqfVs",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』6期第2クールノンクレジットオープニング映像／OPテーマ：「ぼくらの」Eve／ヒロアカOP",
-        "start_minute": 931.2500000000001
-    },
-    {
-        "duree": 167,
-        "id": "4g_bq5pRXYs",
-        "playlist": "Charly-RapPop",
-        "titre": "Tony Hawk",
-        "start_minute": 932.8000000000001
-    },
-    {
-        "duree": 174,
-        "id": "tkrdvrf0W-k",
-        "playlist": "Charly-RapPop",
-        "titre": "OrelSan - Encore une fois (feat. Yamê) [CLIP OFFICIEL]",
-        "start_minute": 935.5833333333334
-    },
-    {
-        "duree": 298,
-        "id": "YVkUvmDQ3HY",
-        "playlist": "Charly-RapPop",
-        "titre": "Eminem - Without Me (Official Music Video)",
-        "start_minute": 938.4833333333333
-    },
-    {
-        "duree": 258,
-        "id": "SiAuAJBZuGs",
-        "playlist": "Charly-RapPop",
-        "titre": "Tessa Violet - Crush (Official Music Video)",
-        "start_minute": 943.45
-    },
-    {
-        "duree": 258,
-        "id": "lt2cHiJABOI",
-        "playlist": "CHARLY-CHILL",
-        "titre": "Messy (Sped Up)",
-        "start_minute": 947.75
-    },
-    {
-        "duree": 100,
-        "id": "dlSbEP4V-gI",
-        "playlist": "Charly-JPOP",
-        "titre": "BOCCHI THE ROCK! - Opening | Seishun Complex",
-        "start_minute": 952.05
-    },
-    {
-        "duree": 240,
-        "id": "llPHj_3-BQU",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Van La Ka Vante (Omar Mendez TD Fix)",
-        "start_minute": 953.7166666666666
-    },
-    {
-        "duree": 147,
-        "id": "Zc_c36jJ40I",
-        "playlist": "Charly-RapPop",
-        "titre": "Lorenzo - Nique la BAC (prod. Le Poto Rico)",
-        "start_minute": 957.7166666666666
-    },
-    {
-        "duree": 172,
-        "id": "hpjV962DLWs",
-        "titre": "Vladimir Cauchemar - Aulos (Official Music Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 960.1666666666666
-    },
-    {
-        "duree": 280,
-        "id": "CnJsQQWrmiM",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Sneaky Driver",
-        "start_minute": 963.0333333333333
-    },
-    {
-        "duree": 123,
-        "id": "jioq9wc57fE",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Violet",
-        "start_minute": 967.6999999999999
-    },
-    {
-        "duree": 209,
-        "id": "LnOts74hPhU",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Dance!",
-        "start_minute": 969.7499999999999
-    },
-    {
-        "duree": 253,
-        "id": "qkaf5sASfc8",
-        "playlist": "CHARLY-RUSH",
-        "titre": "春に揺られど君想う (feat. こぴ)",
-        "start_minute": 973.2333333333332
-    },
-    {
-        "duree": 236,
-        "id": "_B943OFlHVs",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Right Here, Right Now",
-        "start_minute": 977.4499999999999
-    },
-    {
-        "duree": 271,
-        "id": "OuIRPaeXNqo",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Megaphone",
-        "start_minute": 981.3833333333332
-    },
-    {
-        "duree": 394,
-        "id": "aE-qRua89Ak",
-        "playlist": "CHARLY-RUSH",
-        "titre": "I Remember",
-        "start_minute": 985.8999999999999
-    },
-    {
-        "duree": 196,
-        "id": "-kCqSaspG7Q",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Failing in a Cool Way",
-        "start_minute": 992.4666666666666
-    },
-    {
-        "duree": 350,
-        "id": "rxdGfg0Nwzs",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Ego Death (feat. Steve Vai)",
-        "start_minute": 995.7333333333332
-    },
-    {
-        "duree": 109,
-        "id": "gTw22MVAk1E",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Chaos at the Spaceship",
-        "start_minute": 1001.5666666666666
-    },
-    {
-        "duree": 229,
-        "id": "IYSWouOTqwk",
-        "playlist": "CHARLY-RUSH",
-        "titre": "Dynamite",
-        "start_minute": 1003.3833333333333
-    },
-    {
-        "duree": 213,
-        "id": "m9SMT5ipbxk",
-        "playlist": "CHARLY-RUSH",
-        "titre": "アイドル",
-        "start_minute": 1007.2
-    },
-    {
-        "duree": 278,
-        "id": "ZwAAqeOYLJE",
-        "titre": "Up Top",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1010.75
-    },
-    {
-        "duree": 201,
-        "id": "zl-S7piEp_U",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Wildest Dreams",
-        "start_minute": 1015.3833333333333
-    },
-    {
-        "duree": 177,
-        "id": "7qmRSBHZp5s",
-        "playlist": "Charly_Remix",
-        "titre": "1PLIKE140 - CANADA - HOUSE REMIX (Kungs - This Girl)",
-        "start_minute": 1018.7333333333333
-    },
-    {
-        "duree": 266,
-        "id": "friqL2l8rNE",
-        "playlist": "CHARLY-CHILL",
-        "titre": "GOLD",
-        "start_minute": 1021.6833333333334
-    },
-    {
-        "duree": 153,
-        "id": "Im8cHCP5cVE",
-        "playlist": "Charly-RapPop",
-        "titre": "bbno$ & Yung Gravy (BABY GRAVY) - Super Smash Bro's (Visualizer)",
-        "start_minute": 1026.1166666666668
-    },
-    {
-        "duree": 175,
-        "id": "kIft-LUHHVA",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Espresso",
-        "start_minute": 1028.6666666666667
-    },
-    {
-        "duree": 238,
-        "id": "mEhYtnHQAUw",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Say So",
-        "start_minute": 1031.5833333333335
-    },
-    {
-        "duree": 183,
-        "id": "wd9_QCH8Eq4",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Don't Start Now",
-        "start_minute": 1035.5500000000002
-    },
-    {
-        "duree": 234,
-        "id": "qh9TIYXKSFk",
-        "playlist": "Charly-RapPop",
-        "titre": "Nas - The Message",
-        "start_minute": 1038.6000000000001
-    },
-    {
-        "duree": 248,
-        "id": "VbD_kBJc_gI",
-        "titre": "David Bowie - Let's Dance (Official Video) [HD]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1042.5000000000002
-    },
-    {
-        "duree": 100,
-        "id": "GwaRztMaoY0",
-        "titre": "JUJUTSU KAISEN Opening | Kaikai Kitan by Eve",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1046.6333333333337
-    },
-    {
-        "duree": 254,
-        "id": "507d9xto6Og",
-        "playlist": "Charly-RapPop",
-        "titre": "Gringe - Qui dit mieux (feat. OrelSan, Vald, Suikon Blaz AD) [ENFANT LUNE]",
-        "start_minute": 1048.3000000000004
-    },
-    {
-        "duree": 215,
-        "id": "3cKtSlsYVEU",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "September",
-        "start_minute": 1052.5333333333338
-    },
-    {
-        "duree": 154,
-        "id": "nZcTVkXJV1o",
-        "playlist": "Charly-RapPop",
-        "titre": "Gambi - MACINTOSH (Clip officiel)",
-        "start_minute": 1056.116666666667
-    },
-    {
-        "duree": 216,
-        "id": "GGhKPm18E48",
-        "playlist": "Charly-RapPop",
-        "titre": "Damso - Θ. Macarena (Clip Officiel)",
-        "start_minute": 1058.6833333333336
-    },
-    {
-        "duree": 130,
-        "id": "m7jfM9A6R-k",
-        "playlist": "Charly-RapPop",
-        "titre": "Vladimir Cauchemar & 6IX9INE \"Aulos Reloaded\" (WSHH Exclusive - Official Music Video)",
-        "start_minute": 1062.2833333333335
-    },
-    {
-        "duree": 177,
-        "id": "N2Y2vQ-1m7M",
-        "playlist": "Charly-RapPop",
-        "titre": "Y2K, bbno$ - Lalala (Official Video)",
-        "start_minute": 1064.4500000000003
-    },
-    {
-        "duree": 248,
-        "id": "5qm8PH4xAss",
-        "playlist": "Charly-RapPop",
-        "titre": "50 Cent - In Da Club (Official Music Video)",
-        "start_minute": 1067.4000000000003
-    },
-    {
-        "duree": 94,
-        "id": "l2j1qM7gx54",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』2期第2クールオープニング映像／OPテーマ：「空に歌えば」amazarashi／ヒロアカOP",
-        "start_minute": 1071.5333333333338
-    },
-    {
-        "duree": 222,
-        "id": "CmZDCflUYWk",
-        "playlist": "Charly_Remix",
-        "titre": "Alpha Wann x Romsii - Carrelage Italien  (Remix)",
-        "start_minute": 1073.1000000000004
-    },
-    {
-        "duree": 328,
-        "id": "WRLwTO_T52U",
-        "playlist": "CHARLY-CHILL",
-        "titre": "Inner City Blues (Make Me Wanna Holler)",
-        "start_minute": 1076.8000000000004
-    },
-    {
-        "duree": 212,
-        "id": "hXzPxBhhmY8",
-        "titre": "I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1082.266666666667
-    },
-    {
-        "duree": 125,
-        "id": "BQ-v0bU9C5g",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 9 v1 [4K 60FPS | Creditless | CC]",
-        "start_minute": 1085.8000000000004
-    },
-    {
-        "duree": 206,
-        "id": "xC8fNydumzs",
-        "playlist": "Charly-RapPop",
-        "titre": "JuL - J'ai tout su // clip officiel // 2022",
-        "start_minute": 1087.8833333333337
-    },
-    {
-        "duree": 256,
-        "id": "5SXX-pWzOY8",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Conga",
-        "start_minute": 1091.316666666667
-    },
-    {
-        "duree": 188,
-        "id": "361GUUBHH5Y",
-        "playlist": "Charly_Remix",
-        "titre": "Alpha Wann x Nujabes - ÇA VA ENSEMBLE II (remix)",
-        "start_minute": 1095.5833333333337
-    },
-    {
-        "duree": 290,
-        "id": "_CL6n0FJZpk",
-        "playlist": "Charly-RapPop",
-        "titre": "Dr. Dre - Still D.R.E. ft. Snoop Dogg",
-        "start_minute": 1098.7166666666672
-    },
-    {
-        "duree": 289,
-        "id": "_ScM9pKlCfo",
-        "titre": "Daft Punk - Fragments of Time (Official Audio) ft. Todd Edwards",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1103.5500000000004
-    },
-    {
-        "duree": 545,
-        "id": "Njk2YAgNMnE",
-        "titre": "King Gizzard & The Lizard Wizard - Iron Lung",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1108.366666666667
-    },
-    {
-        "duree": 104,
-        "id": "Gzuk7oK7ngE",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "反面教師",
-        "start_minute": 1117.4500000000003
-    },
-    {
-        "duree": 247,
-        "id": "56STvMBKYdw",
-        "playlist": "Charly-RapPop",
-        "titre": "Damso - 911 [Clip Officiel]",
-        "start_minute": 1119.1833333333336
-    },
-    {
-        "duree": 306,
-        "id": "h4UqMyldS7Q",
-        "titre": "Ice Cube - It Was A Good Day",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1123.3000000000002
-    },
-    {
-        "duree": 147,
-        "id": "F2YpXC1itEE",
-        "playlist": "Charly-RapPop",
-        "titre": "Pedro Pedro Pedro - Racoon Meme Full Version",
-        "start_minute": 1128.4
-    },
-    {
-        "duree": 193,
-        "id": "zgdufCDrulI",
-        "titre": "MydNyte",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1130.8500000000001
-    },
-    {
-        "duree": 233,
-        "id": "esqRBsVumrw",
-        "titre": "Jungle - Candle Flame (feat. Erick The Architect) (Official Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1134.0666666666668
-    },
-    {
-        "duree": 240,
-        "id": "qXI87eMP-bs",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Face to Face",
-        "start_minute": 1137.9500000000003
-    },
-    {
-        "duree": 170,
-        "id": "ovvbCPqgX5E",
-        "playlist": "Charly_Remix",
-        "titre": "Ziak - I WILL SURVIVE  (Disco Remix)",
-        "start_minute": 1141.9500000000003
-    },
-    {
-        "duree": 383,
-        "id": "QzoBB9NO9Dc",
-        "playlist": "Charly-RapPop",
-        "titre": "Mafia K'1 Fry - Pour ceux (Clip officiel)",
-        "start_minute": 1144.7833333333335
-    },
-    {
-        "duree": 310,
-        "id": "rtL5oMyBHPs",
-        "playlist": "Charly-RapPop",
-        "titre": "MGMT - Little Dark Age (Official Video)",
-        "start_minute": 1151.166666666667
-    },
-    {
-        "duree": 109,
-        "id": "QUVeKcAT1CI",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 5 v2 [4K 60FPS | Creditless | CC]",
-        "start_minute": 1156.3333333333337
-    },
-    {
-        "duree": 272,
-        "id": "szy_L1-16wg",
-        "playlist": "Charly-JPOP",
-        "titre": "September",
-        "start_minute": 1158.1500000000003
-    },
-    {
-        "duree": 188,
-        "id": "5xyoPwocD08",
-        "titre": "Julien Granel - PLUS FORT",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1162.6833333333336
-    },
-    {
-        "duree": 340,
-        "id": "alZZeDr4wxY",
-        "titre": "Work It Out (feat. Antwaun Stanley)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1165.816666666667
-    },
-    {
-        "duree": 336,
-        "id": "Yk9mnW45Eqk",
-        "titre": "We're on the Move",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1171.4833333333338
-    },
-    {
-        "duree": 102,
-        "id": "AhNYcpN1pEU",
-        "playlist": "Charly-JPOP",
-        "titre": "DAN DA DAN Season 2 ED | Doukashiteru by WurtS | Netflix Anime",
-        "start_minute": 1177.0833333333337
-    },
-    {
-        "duree": 217,
-        "id": "iXzBdNjpYw0",
-        "playlist": "Charly-RapPop",
-        "titre": "OrelSan - Rêves bizarres (feat. Damso) [CLIP OFFICIEL]",
-        "start_minute": 1178.7833333333338
-    },
-    {
-        "duree": 438,
-        "id": "6POZlJAZsok",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Just the Two of Us (feat. Bill Withers)",
-        "start_minute": 1182.4000000000003
-    },
-    {
-        "duree": 126,
-        "id": "oHee6cG6Ubk",
-        "titre": "Adieu les filles",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1189.7000000000003
-    },
-    {
-        "duree": 224,
-        "id": "QG_yHZDlFqE",
-        "playlist": "Charly-RapPop",
-        "titre": "OrelSan - Du propre [CLIP OFFICIEL]",
-        "start_minute": 1191.8000000000002
-    },
-    {
-        "duree": 137,
-        "id": "LiXYi-_MVa4",
-        "playlist": "Charly-RapPop",
-        "titre": "bbno$ - two (official music video)",
-        "start_minute": 1195.5333333333335
-    },
-    {
-        "duree": 209,
-        "id": "n0GXk_T2zs8",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Training Season",
-        "start_minute": 1197.8166666666668
-    },
-    {
-        "duree": 245,
-        "id": "VYOjWnS4cMY",
-        "playlist": "Charly-RapPop",
-        "titre": "Childish Gambino - This Is America (Official Video)",
-        "start_minute": 1201.3000000000002
-    },
-    {
-        "duree": 159,
-        "id": "PV8Sw6XsDEg",
-        "playlist": "Charly-RapPop",
-        "titre": "Lorenzo - Catastrophe (Clip Officiel)",
-        "start_minute": 1205.3833333333334
-    },
-    {
-        "duree": 175,
-        "id": "2j8ALtAxOjE",
-        "playlist": "Charly-RapPop",
-        "titre": "bbno$ - come to brazil (official music video)",
-        "start_minute": 1208.0333333333335
-    },
-    {
-        "duree": 233,
-        "id": "QK8mJJJvaes",
-        "playlist": "Charly-RapPop",
-        "titre": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO)",
-        "start_minute": 1210.9500000000003
-    },
-    {
-        "duree": 271,
-        "id": "5TqetBMBTww",
-        "playlist": "Charly-RapPop",
-        "titre": "Angèle - Démons feat. Damso [OFFICIAL MUSIC VIDEO]",
-        "start_minute": 1214.8333333333337
-    },
-    {
-        "duree": 227,
-        "id": "Kbj2Zss-5GY",
-        "playlist": "Charly-RapPop",
-        "titre": "A$AP Rocky - Praise The Lord (Da Shine) (Official Video) ft. Skepta",
-        "start_minute": 1219.3500000000004
-    },
-    {
-        "duree": 245,
-        "id": "h-Fzs4M_hAY",
-        "playlist": "Charly_Remix",
-        "titre": "GIVE ME LA PRISE CONNECTÉE",
-        "start_minute": 1223.1333333333337
-    },
-    {
-        "duree": 255,
-        "id": "1zwaZkOXXqw",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Daddy ! Daddy ! Do !",
-        "start_minute": 1227.216666666667
-    },
-    {
-        "duree": 78,
-        "id": "YIU3SaX7GiQ",
-        "playlist": "CHARLY-LOVE",
-        "titre": "\"Special\"- Smile High featuring Antwaun Stanley",
-        "start_minute": 1231.466666666667
-    },
-    {
-        "duree": 185,
-        "id": "lukT_WB5IB0",
-        "playlist": "Charly-RapPop",
-        "titre": "Yamê - Bécane | A COLORS SHOW",
-        "start_minute": 1232.7666666666669
-    },
-    {
-        "duree": 262,
-        "id": "RyE7R5fgR60",
-        "titre": "Tom Misch - 'It Runs Through Me' (Feat. De La Soul)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1235.8500000000001
-    },
-    {
-        "duree": 163,
-        "id": "g9bRUY3znnA",
-        "playlist": "Charly-RapPop",
-        "titre": "boom",
-        "start_minute": 1240.2166666666667
-    },
-    {
-        "duree": 191,
-        "id": "xSHGzO4FzBA",
-        "playlist": "Charly-RapPop",
-        "titre": "Gambi - HÉ OH (Clip officiel)",
-        "start_minute": 1242.9333333333334
-    },
-    {
-        "duree": 119,
-        "id": "aDgst6m_Stg",
-        "playlist": "Charly_Remix",
-        "titre": "JuL JCVD X I Follow rivers (Remix)",
-        "start_minute": 1246.1166666666668
-    },
-    {
-        "duree": 234,
-        "id": "02nFGcia31M",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Casio",
-        "start_minute": 1248.1000000000001
-    },
-    {
-        "duree": 194,
-        "id": "ByHxaDIyRTk",
-        "playlist": "Charly-RapPop",
-        "titre": "Jul - JCVD // Clip Officiel // 2019",
-        "start_minute": 1252.0000000000002
-    },
-    {
-        "duree": 180,
-        "id": "GfLDnW4i31g",
-        "playlist": "Charly-RapPop",
-        "titre": "particule",
-        "start_minute": 1255.2333333333336
-    },
-    {
-        "duree": 340,
-        "id": "09Ig2MeSmSQ",
-        "titre": "Tempos Futuros (feat. Jose Roberto Bertrami)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1260.0
-    },
-    {
-        "duree": 265,
-        "id": "AW1ssZ5w79k",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "Marechià",
-        "start_minute": 1265.6666666666667
-    },
-    {
-        "duree": 571,
-        "id": "MU1lAkDJwU4",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "You No Fit Touch Am (Medlar Remix)",
-        "start_minute": 1270.0833333333335
-    },
-    {
-        "duree": 157,
-        "id": "ZZ99I2Gw-V0",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "Passionfruit",
-        "start_minute": 1279.6000000000001
-    },
-    {
-        "duree": 200,
-        "id": "3xSb5Pm-ws8",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "Lihue",
-        "start_minute": 1282.2166666666667
-    },
-    {
-        "duree": 412,
-        "id": "e6vOwy_1kwQ",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "Kryé Mwen (Patchworks Remix)",
-        "start_minute": 1285.55
-    },
-    {
-        "duree": 213,
-        "id": "xXWqZx0wuiM",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "El Niño (Mixed by Chris Goss)",
-        "start_minute": 1292.4166666666665
-    },
-    {
-        "duree": 170,
-        "id": "I6UA589JoKs",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "The Traveller",
-        "start_minute": 1295.9666666666665
-    },
-    {
-        "duree": 223,
-        "id": "DbN5KsemhA0",
-        "playlist": "CHARLY-TROPIQUES",
-        "titre": "Stranger",
-        "start_minute": 1298.7999999999997
-    },
-    {
-        "duree": 164,
-        "id": "dybNNo8y48k",
-        "titre": "Breakbot - Another You (Feat. Ruckazoid) [Official Video]",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1302.5166666666664
-    },
-    {
-        "duree": 168,
-        "id": "8sIJNHn1uyc",
-        "playlist": "Charly_Remix",
-        "titre": "i kissed a girl (hardstyle)",
-        "start_minute": 1305.2499999999998
-    },
-    {
-        "duree": 125,
-        "id": "Ir-IkSLGPBQ",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 11 v1 【Heaven’s falling down】 4K 60FPS Creditless | CC",
-        "start_minute": 1308.0499999999997
-    },
-    {
-        "duree": 171,
-        "id": "8obCzuhp3cg",
-        "playlist": "Charly-RapPop",
-        "titre": "Sundance",
-        "start_minute": 1310.133333333333
-    },
-    {
-        "duree": 96,
-        "id": "AwXRPWmgLbU",
-        "playlist": "Charly-JPOP",
-        "titre": "TVアニメ『よふかしのうた』ノンクレジットOP 【Creepy Nuts「堕天」】| 毎週木曜日24時55分からフジテレビ\"ノイタミナ\"ほかにて放送中！",
-        "start_minute": 1312.983333333333
-    },
-    {
-        "duree": 123,
-        "id": "L9DK-DRg85w",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 3 [4K 60FPS | Creditless | CC]",
-        "start_minute": 1314.5833333333328
-    },
-    {
-        "duree": 222,
-        "id": "uscYtbTNdtQ",
-        "playlist": "Charly_Remix",
-        "titre": "KAARIS X JOJO - SE-VRAK (PHONK REMIX)",
-        "start_minute": 1316.6333333333328
-    },
-    {
-        "duree": 206,
-        "id": "X6MxGJ7qxck",
-        "playlist": "Charly-RapPop",
-        "titre": "JUL - WESH ALORS // CLIP OFFICIEL //2015",
-        "start_minute": 1320.3333333333328
-    },
-    {
-        "duree": 216,
-        "id": "rDVOqLGZgW0",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Day & Night (feat. Holybrune)",
-        "start_minute": 1323.7666666666662
-    },
-    {
-        "duree": 265,
-        "id": "dlFA0Zq1k2A",
-        "playlist": "Charly-JPOP",
-        "titre": "KANA-BOON - Silhouette",
-        "start_minute": 1327.366666666666
-    },
-    {
-        "duree": 255,
-        "id": "tvNSXS4x9nc",
-        "playlist": "Charly-RapPop",
-        "titre": "Kendrick Lamar - United In Grief (Official Audio)",
-        "start_minute": 1331.7833333333328
-    },
-    {
-        "duree": 193,
-        "id": "mDFBTdToRmw",
-        "playlist": "Charly-RapPop",
-        "titre": "LITTLE BIG – SKIBIDI (official music video)",
-        "start_minute": 1336.0333333333328
-    },
-    {
-        "duree": 226,
-        "id": "r7-A9NqUjRI",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "24K Magic",
-        "start_minute": 1339.2499999999995
-    },
-    {
-        "duree": 201,
-        "id": "E5yFcdPAGv0",
-        "titre": "Gorillaz - Humility (Official Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1343.0166666666662
-    },
-    {
-        "duree": 100,
-        "id": "6riDJMI-Y8U",
-        "titre": "JUJUTSU KAISEN Ending | Lost in Paradise feat. AKLO",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1346.366666666666
-    },
-    {
-        "duree": 116,
-        "id": "T4dUEFxRBL0",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 7 v1 [4K 60FPS | Creditless | CC]",
-        "start_minute": 1348.0333333333328
-    },
-    {
-        "duree": 208,
-        "id": "6Ro7NubzE9A",
-        "playlist": "Charly-RapPop",
-        "titre": "bbno$ - 1-800 (ft. ironmouse)",
-        "start_minute": 1349.9666666666662
-    },
-    {
-        "duree": 200,
-        "id": "Nq5LMGtBmis",
-        "titre": "VULFPECK /// It Gets Funkier IV (feat. Louis Cole)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1353.433333333333
-    },
-    {
-        "duree": 280,
-        "id": "ony539T074w",
-        "playlist": "Charly-JPOP",
-        "titre": "King Gnu - 白日",
-        "start_minute": 1356.7666666666662
-    },
-    {
-        "duree": 207,
-        "id": "vgOTxZtlXys",
-        "playlist": "CHARLY-LOVE",
-        "titre": "After The Storm",
-        "start_minute": 1361.433333333333
-    },
-    {
-        "duree": 228,
-        "id": "dqNEmR5uQCM",
-        "playlist": "Charly-RapPop",
-        "titre": "Booba - GLAIVE (Clip Officiel)",
-        "start_minute": 1364.883333333333
-    },
-    {
-        "duree": 92,
-        "id": "iQGAPewPH1s",
-        "playlist": "Charly-JPOP",
-        "titre": "『僕のヒーローアカデミア』ヒロアカ2期第1クールノンクレジットオープニング映像／OPテーマ：「ピースサイン」米津玄師／ヒロアカOP",
-        "start_minute": 1368.683333333333
-    },
-    {
-        "duree": 230,
-        "id": "XPY1wCaVKI8",
-        "playlist": "Charly-RapPop",
-        "titre": "Ziak - Même pas un grincement  (Prod. Sam Tiba)",
-        "start_minute": 1370.2166666666662
-    },
-    {
-        "duree": 265,
-        "id": "FxzBvqY5PP0",
-        "titre": "Daft Punk - Digital Love (Official Video)",
-        "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1374.0499999999995
-    },
-    {
-        "duree": 265,
-        "id": "Cu19WlR_UvA",
-        "playlist": "CHARLY-CHILL",
-        "titre": "Shoody - Tokyo Melody",
-        "start_minute": 1378.4666666666662
-    },
-    {
-        "duree": 338,
-        "id": "20OGm_-RebE",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "Hung Up",
-        "start_minute": 1382.883333333333
-    },
-    {
-        "duree": 222,
-        "id": "L0qBulm0hbg",
-        "playlist": "CHARLY-LOVE",
-        "titre": "I Keep Forgettin' (Every Time You're Near)",
-        "start_minute": 1388.5166666666664
-    },
-    {
-        "duree": 244,
-        "id": "VZkRAp9XMIg",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Cosmic Girl (Remastered 2013)",
-        "start_minute": 1392.2166666666665
-    },
-    {
-        "duree": 328,
-        "id": "4qqeafI9kXM",
-        "playlist": "CHARLY-GROOVE",
-        "titre": "LOST IN PARADISE (Jujutsu Kaisen Ending Theme Song)",
-        "start_minute": 1396.283333333333
-    },
-    {
-        "duree": 170,
-        "id": "OAq4t0n1rkY",
-        "playlist": "Charly-RapPop",
-        "titre": "Lorenzo - Bizness (Clip Officiel)",
-        "start_minute": 1401.7499999999998
-    },
-    {
-        "duree": 185,
-        "id": "9cHbvRUALrc",
-        "playlist": "CHARLY-LOVE",
-        "titre": "Pink + White",
-        "start_minute": 1404.583333333333
+        "start_minute": 135.16666666666669
     },
     {
         "duree": 188,
         "id": "yRtcYbKoPf0",
         "titre": "K.K. Cruisin' (Animal Crossing) Jazz Cover - The Consouls",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1407.6666666666663
+        "start_minute": 252.16666666666669
+    },
+    {
+        "duree": 1559,
+        "id": "7areAUZq9qI",
+        "playlist": "Charly-WhiteGirl",
+        "titre": "Ultra Masculine Whitegirl Playlist For Hitting The Gym",
+        "start_minute": 255.3
+    },
+    {
+        "duree": 3568,
+        "id": "4-S4unSPNJQ",
+        "titre": "sped up songs that vibe",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 281.28333333333336
+    },
+    {
+        "duree": 3990,
+        "id": "Stu6m4IrIY8",
+        "playlist": "Charly-WhiteGirl",
+        "titre": "Ultra Masculine White Girl Playlist for Roadtrips with the Boys",
+        "start_minute": 340.75
+    },
+    {
+        "duree": 2055,
+        "id": "1UOVLdPslmo",
+        "titre": "STARBLASTER /// 3am Funk Dance Party",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 407.25
+    },
+    {
+        "duree": 78,
+        "id": "YIU3SaX7GiQ",
+        "playlist": "CHARLY-LOVE",
+        "titre": "\"Special\"- Smile High featuring Antwaun Stanley",
+        "start_minute": 441.5
+    },
+    {
+        "duree": 153,
+        "id": "gZxmkRFOQws",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Tell Me Where To Go (feat. Apollo J, Zay Suav, Marcus Isiah & Rshad)",
+        "start_minute": 442.8
+    },
+    {
+        "duree": 177,
+        "id": "rE36juT-NVg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Everything Eventually Ends",
+        "start_minute": 445.35
+    },
+    {
+        "duree": 207,
+        "id": "vgOTxZtlXys",
+        "playlist": "CHARLY-LOVE",
+        "titre": "After The Storm",
+        "start_minute": 448.3
+    },
+    {
+        "duree": 234,
+        "id": "02nFGcia31M",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Casio",
+        "start_minute": 451.75
+    },
+    {
+        "duree": 170,
+        "id": "_Hhz5o9KVHI",
+        "playlist": "CHARLY-LOVE",
+        "titre": "By Your Side",
+        "start_minute": 455.65
+    },
+    {
+        "duree": 216,
+        "id": "rDVOqLGZgW0",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Day & Night (feat. Holybrune)",
+        "start_minute": 458.4833333333333
+    },
+    {
+        "duree": 188,
+        "id": "XqJosdWocto",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Moonlight",
+        "start_minute": 462.0833333333333
     },
     {
         "duree": 206,
-        "id": "1KN4DhVXw-Y",
-        "playlist": "Charly-JPOP",
-        "titre": "yama - a.m.3:21 (Official Video)",
-        "start_minute": 1410.7999999999997
+        "id": "B_1moEBS4TE",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Hate It Or Love It",
+        "start_minute": 465.21666666666664
+    },
+    {
+        "duree": 253,
+        "id": "KMdTrqzEI0I",
+        "playlist": "CHARLY-LOVE",
+        "titre": "恋",
+        "start_minute": 468.65
+    },
+    {
+        "duree": 185,
+        "id": "9cHbvRUALrc",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Pink + White",
+        "start_minute": 472.8666666666666
+    },
+    {
+        "duree": 242,
+        "id": "IYFqc9gk4qI",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Leave The Door Open",
+        "start_minute": 475.94999999999993
     },
     {
         "duree": 215,
         "id": "1bDuNZpIFOw",
         "titre": "Men I Trust - Show Me How",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1414.2333333333331
+        "start_minute": 480.0
+    },
+    {
+        "duree": 196,
+        "id": "wj9OTLIautc",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Hate Dancin'",
+        "start_minute": 483.5833333333333
+    },
+    {
+        "duree": 274,
+        "id": "cl_AtaYJZpk",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Moving Forward",
+        "start_minute": 486.84999999999997
+    },
+    {
+        "duree": 328,
+        "id": "WRLwTO_T52U",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Inner City Blues (Make Me Wanna Holler)",
+        "start_minute": 491.41666666666663
+    },
+    {
+        "duree": 266,
+        "id": "friqL2l8rNE",
+        "playlist": "CHARLY-CHILL",
+        "titre": "GOLD",
+        "start_minute": 496.88333333333327
+    },
+    {
+        "duree": 249,
+        "id": "BxqYUbNR-c0",
+        "playlist": "CHARLY-CHILL",
+        "titre": "サカナクション / 忘れられないの　-Music Video-",
+        "start_minute": 501.3166666666666
+    },
+    {
+        "duree": 258,
+        "id": "lt2cHiJABOI",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Messy (Sped Up)",
+        "start_minute": 505.4666666666666
+    },
+    {
+        "duree": 213,
+        "id": "wgqUhK32n1c",
+        "playlist": "CHARLY-CHILL",
+        "titre": "The Door",
+        "start_minute": 509.7666666666666
+    },
+    {
+        "duree": 161,
+        "id": "gkTQQFGABl8",
+        "playlist": "CHARLY-CHILL",
+        "titre": "On My Way",
+        "start_minute": 513.3166666666666
+    },
+    {
+        "duree": 145,
+        "id": "gkmgUjDQJ2c",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Forget",
+        "start_minute": 515.9999999999999
+    },
+    {
+        "duree": 295,
+        "id": "ljEzt2I7IFo",
+        "playlist": "CHARLY-CHILL",
+        "titre": "King Minos",
+        "start_minute": 518.4166666666665
+    },
+    {
+        "duree": 265,
+        "id": "Cu19WlR_UvA",
+        "playlist": "CHARLY-CHILL",
+        "titre": "Shoody - Tokyo Melody",
+        "start_minute": 523.3333333333331
+    },
+    {
+        "duree": 231,
+        "id": "URR_Nv-6MZs",
+        "playlist": "CHARLY-CHILL",
+        "titre": "喜劇",
+        "start_minute": 527.7499999999998
+    },
+    {
+        "duree": 93,
+        "id": "bzNXDsfqfVs",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』6期第2クールノンクレジットオープニング映像／OPテーマ：「ぼくらの」Eve／ヒロアカOP",
+        "start_minute": 531.5999999999998
+    },
+    {
+        "duree": 172,
+        "id": "S9BTi5ep8Ao",
+        "playlist": "Charly-RapPop",
+        "titre": "Vladimir Cauchemar BRRR feat. Laylow, Rim'K & Asdek",
+        "start_minute": 533.1499999999997
+    },
+    {
+        "duree": 82,
+        "id": "q4i05EaML44",
+        "titre": "Bloopin",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 536.0166666666664
+    },
+    {
+        "duree": 198,
+        "id": "KEG7b851Ric",
+        "playlist": "Charly-RapPop",
+        "titre": "Sabrina Carpenter - Taste (Official Video)",
+        "start_minute": 537.3833333333331
+    },
+    {
+        "duree": 124,
+        "id": "wPdX66-Ag2s",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo's Bizarre Adventure - Opening 1 [4K 60FPS | Creditless | CC]",
+        "start_minute": 540.683333333333
+    },
+    {
+        "duree": 200,
+        "id": "Zr93W_omd4M",
+        "playlist": "Charly-RapPop",
+        "titre": "Little Big x bbno$ - IT HAPPENS (Official Music Video)",
+        "start_minute": 542.7499999999998
+    },
+    {
+        "duree": 104,
+        "id": "Gzuk7oK7ngE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "反面教師",
+        "start_minute": 546.0833333333331
+    },
+    {
+        "duree": 167,
+        "id": "yBsaXnaMqg4",
+        "playlist": "Charly_Remix",
+        "titre": "NINHO X NISKA - I LIKE TO MOVE IT",
+        "start_minute": 547.8166666666665
+    },
+    {
+        "duree": 257,
+        "id": "eS_korRhTDk",
+        "playlist": "Charly-RapPop",
+        "titre": "Lemaitre - Closer (UK Version) ft. Jennie A.",
+        "start_minute": 550.5999999999998
+    },
+    {
+        "duree": 146,
+        "id": "8hAS7PWdgVE",
+        "playlist": "Charly-RapPop",
+        "titre": "Chic type",
+        "start_minute": 554.8833333333331
+    },
+    {
+        "duree": 215,
+        "id": "KWoTyfPsqbE",
+        "playlist": "Charly-RapPop",
+        "titre": "Sabrina Carpenter - House Tour (Official Video)",
+        "start_minute": 557.3166666666664
+    },
+    {
+        "duree": 217,
+        "id": "iXzBdNjpYw0",
+        "playlist": "Charly-RapPop",
+        "titre": "OrelSan - Rêves bizarres (feat. Damso) [CLIP OFFICIEL]",
+        "start_minute": 560.8999999999997
+    },
+    {
+        "duree": 150,
+        "id": "DH_mL6zwCCw",
+        "titre": "Anatole Muster & daniel hayn - Passerby (feat. Tane)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 564.5166666666664
+    },
+    {
+        "duree": 291,
+        "id": "g3jCAyPai2Y",
+        "playlist": "Charly-JPOP",
+        "titre": "Yakuza OST - Baka Mitai (ばかみたい) Kiryu full version",
+        "start_minute": 567.0166666666664
+    },
+    {
+        "duree": 212,
+        "id": "7vDnr9mxuhA",
+        "playlist": "Charly_Remix",
+        "titre": "Funk Corleone - Rap catéshit (feat. Alpha One)",
+        "start_minute": 571.8666666666664
+    },
+    {
+        "duree": 100,
+        "id": "epZaT8B31-g",
+        "playlist": "Charly-JPOP",
+        "titre": "Mob Psycho 100 II Opening | 99.9 by Mob Choir",
+        "start_minute": 575.3999999999997
+    },
+    {
+        "duree": 178,
+        "id": "QuvqzlxEO6g",
+        "playlist": "Charly-RapPop",
+        "titre": "bbno$ - it boy (official music video)",
+        "start_minute": 577.0666666666664
+    },
+    {
+        "duree": 177,
+        "id": "7qmRSBHZp5s",
+        "playlist": "Charly_Remix",
+        "titre": "1PLIKE140 - CANADA - HOUSE REMIX (Kungs - This Girl)",
+        "start_minute": 580.0333333333331
+    },
+    {
+        "duree": 258,
+        "id": "SiAuAJBZuGs",
+        "playlist": "Charly-RapPop",
+        "titre": "Tessa Violet - Crush (Official Music Video)",
+        "start_minute": 582.9833333333331
+    },
+    {
+        "duree": 222,
+        "id": "uscYtbTNdtQ",
+        "playlist": "Charly_Remix",
+        "titre": "KAARIS X JOJO - SE-VRAK (PHONK REMIX)",
+        "start_minute": 587.2833333333331
+    },
+    {
+        "duree": 242,
+        "id": "N0TA8xXWSqE",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Smooth Operator - TikTok Remix",
+        "start_minute": 590.9833333333331
+    },
+    {
+        "duree": 242,
+        "id": "Ic5vxw3eijY",
+        "playlist": "Charly-RapPop",
+        "titre": "Estelle - American Boy [Feat. Kanye West] [Video]",
+        "start_minute": 595.0166666666664
+    },
+    {
+        "duree": 201,
+        "id": "E5yFcdPAGv0",
+        "titre": "Gorillaz - Humility (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 600.0
+    },
+    {
+        "duree": 247,
+        "id": "56STvMBKYdw",
+        "playlist": "Charly-RapPop",
+        "titre": "Damso - 911 [Clip Officiel]",
+        "start_minute": 603.35
+    },
+    {
+        "duree": 253,
+        "id": "oGdhZyS2ozo",
+        "playlist": "Charly-RapPop",
+        "titre": "OrelSan - La Terre est Ronde [VIDÉO OFFICIELLE]",
+        "start_minute": 607.4666666666667
+    },
+    {
+        "duree": 189,
+        "id": "mkiVLIkotwk",
+        "playlist": "Charly-RapPop",
+        "titre": "Orelsan - Boss (lyrics video)",
+        "start_minute": 611.6833333333334
+    },
+    {
+        "duree": 374,
+        "id": "-CVn3-3g_BI",
+        "playlist": "Charly-RapPop",
+        "titre": "Bande Organisée - SCH / Kofs / Jul / Naps / Soso Maness / Elams / Solda / Houari // Clip Officiel",
+        "start_minute": 614.8333333333334
+    },
+    {
+        "duree": 109,
+        "id": "_bet3SF1xbM",
+        "playlist": "Charly-RapPop",
+        "titre": "Flow externe",
+        "start_minute": 621.0666666666667
+    },
+    {
+        "duree": 153,
+        "id": "Im8cHCP5cVE",
+        "playlist": "Charly-RapPop",
+        "titre": "bbno$ & Yung Gravy (BABY GRAVY) - Super Smash Bro's (Visualizer)",
+        "start_minute": 622.8833333333334
+    },
+    {
+        "duree": 218,
+        "id": "1t_sMynan_k",
+        "playlist": "Charly-RapPop",
+        "titre": "LITTLE BIG – FARADENZA (official music video)",
+        "start_minute": 625.4333333333334
+    },
+    {
+        "duree": 177,
+        "id": "N2Y2vQ-1m7M",
+        "playlist": "Charly-RapPop",
+        "titre": "Y2K, bbno$ - Lalala (Official Video)",
+        "start_minute": 629.0666666666667
+    },
+    {
+        "duree": 154,
+        "id": "nZcTVkXJV1o",
+        "playlist": "Charly-RapPop",
+        "titre": "Gambi - MACINTOSH (Clip officiel)",
+        "start_minute": 632.0166666666668
+    },
+    {
+        "duree": 282,
+        "id": "vk6014HuxcE",
+        "playlist": "Charly-RapPop",
+        "titre": "JAŸ-Z - Empire State Of Mind ft. Alicia Keys",
+        "start_minute": 634.5833333333335
+    },
+    {
+        "duree": 179,
+        "id": "9eJsDDvpwmE",
+        "playlist": "Charly-RapPop",
+        "titre": "Hamza - God Bless feat. Damso (Clip officiel)",
+        "start_minute": 639.2833333333335
+    },
+    {
+        "duree": 173,
+        "id": "Q4yuLqdFWW0",
+        "playlist": "Charly-RapPop",
+        "titre": "Lorenzo ft. Shy'm - Nous Deux (Clip Officiel)",
+        "start_minute": 642.2666666666669
+    },
+    {
+        "duree": 194,
+        "id": "ByHxaDIyRTk",
+        "playlist": "Charly-RapPop",
+        "titre": "Jul - JCVD // Clip Officiel // 2019",
+        "start_minute": 645.1500000000002
+    },
+    {
+        "duree": 185,
+        "id": "lukT_WB5IB0",
+        "playlist": "Charly-RapPop",
+        "titre": "Yamê - Bécane | A COLORS SHOW",
+        "start_minute": 648.3833333333336
+    },
+    {
+        "duree": 233,
+        "id": "QK8mJJJvaes",
+        "playlist": "Charly-RapPop",
+        "titre": "MACKLEMORE & RYAN LEWIS - THRIFT SHOP FEAT. WANZ (OFFICIAL VIDEO)",
+        "start_minute": 651.4666666666669
+    },
+    {
+        "duree": 383,
+        "id": "QzoBB9NO9Dc",
+        "playlist": "Charly-RapPop",
+        "titre": "Mafia K'1 Fry - Pour ceux (Clip officiel)",
+        "start_minute": 655.3500000000003
+    },
+    {
+        "duree": 150,
+        "id": "Wgw6tJ8yz9M",
+        "titre": "JAWNY - Honeypie (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 661.7333333333336
+    },
+    {
+        "duree": 195,
+        "id": "RBR1DFcyqgY",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Welcome To The Disco",
+        "start_minute": 664.2333333333336
+    },
+    {
+        "duree": 227,
+        "id": "rVeMiVU77wo",
+        "titre": "alt-J (∆) Breezeblocks",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 667.4833333333336
+    },
+    {
+        "duree": 173,
+        "id": "O_n_0whrgWc",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "WO:OO",
+        "start_minute": 671.2666666666669
+    },
+    {
+        "duree": 262,
+        "id": "krJ7k1gG_28",
+        "playlist": "Charly-RapPop",
+        "titre": "Bigflo & Oli - INSOLENT #5",
+        "start_minute": 674.1500000000002
+    },
+    {
+        "duree": 100,
+        "id": "VtNgeDxYJzE",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』第4期ノンクレジットオープニング映像／OPテーマ：「ポラリス」BLUE ENCOUNT／ヒロアカOP",
+        "start_minute": 678.5166666666669
+    },
+    {
+        "duree": 223,
+        "id": "DbN5KsemhA0",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Stranger",
+        "start_minute": 680.1833333333335
+    },
+    {
+        "duree": 198,
+        "id": "JRF8Nko1EDY",
+        "titre": "King Gizzard & The Lizard Wizard - Hate Dancin'",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 683.9000000000002
+    },
+    {
+        "duree": 258,
+        "id": "swJOIjjW69U",
+        "titre": "Dreams (2004 Remaster)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 687.2000000000002
+    },
+    {
+        "duree": 297,
+        "id": "22tVWwmTie8",
+        "playlist": "Charly-RapPop",
+        "titre": "Eminem - Houdini [Official Music Video]",
+        "start_minute": 691.5000000000001
+    },
+    {
+        "duree": 96,
+        "id": "MdfFVdFWl1U",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』4期第クール「文化祭編」ノンクレジットOP映像／OPテーマ：「スターマーカー」KANA-BOON／ヒロアカOP",
+        "start_minute": 696.4500000000002
+    },
+    {
+        "duree": 436,
+        "id": "0RXdd0pCJ9Q",
+        "titre": "DWIG - Orange Evening // Laut & Luise (LUL007)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 698.0500000000002
+    },
+    {
+        "duree": 147,
+        "id": "Zc_c36jJ40I",
+        "playlist": "Charly-RapPop",
+        "titre": "Lorenzo - Nique la BAC (prod. Le Poto Rico)",
+        "start_minute": 705.3166666666668
+    },
+    {
+        "duree": 296,
+        "id": "pRo4oXEgk4g",
+        "playlist": "CHARLY-RUSH",
+        "titre": "我愛你",
+        "start_minute": 707.7666666666669
+    },
+    {
+        "duree": 256,
+        "id": "KOOhPfMbuIQ",
+        "titre": "half•alive - still feel. [OFFICIAL VIDEO]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 712.7000000000002
+    },
+    {
+        "duree": 255,
+        "id": "tvNSXS4x9nc",
+        "playlist": "Charly-RapPop",
+        "titre": "Kendrick Lamar - United In Grief (Official Audio)",
+        "start_minute": 716.9666666666668
+    },
+    {
+        "duree": 137,
+        "id": "EiV1YxtbfcE",
+        "titre": "Angèle - Saiyan [IA] (prod. Lnkhey)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 721.2166666666668
+    },
+    {
+        "duree": 203,
+        "id": "rIcwQ-Jy9sE",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Operaz (feat. Youthstar, ASM)",
+        "start_minute": 723.5000000000001
+    },
+    {
+        "duree": 123,
+        "id": "jioq9wc57fE",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Violet",
+        "start_minute": 726.8833333333334
+    },
+    {
+        "duree": 236,
+        "id": "_B943OFlHVs",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Right Here, Right Now",
+        "start_minute": 728.9333333333334
+    },
+    {
+        "duree": 229,
+        "id": "IYSWouOTqwk",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Dynamite",
+        "start_minute": 732.8666666666667
+    },
+    {
+        "duree": 109,
+        "id": "gTw22MVAk1E",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Chaos at the Spaceship",
+        "start_minute": 736.6833333333334
+    },
+    {
+        "duree": 271,
+        "id": "OuIRPaeXNqo",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Megaphone",
+        "start_minute": 738.5000000000001
+    },
+    {
+        "duree": 213,
+        "id": "m9SMT5ipbxk",
+        "playlist": "CHARLY-RUSH",
+        "titre": "アイドル",
+        "start_minute": 743.0166666666668
+    },
+    {
+        "duree": 220,
+        "id": "Ojj8mR8PEbw",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Travelling Without Moving (Remastered 2013)",
+        "start_minute": 746.5666666666667
+    },
+    {
+        "duree": 209,
+        "id": "LnOts74hPhU",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Dance!",
+        "start_minute": 750.2333333333333
+    },
+    {
+        "duree": 350,
+        "id": "rxdGfg0Nwzs",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Ego Death (feat. Steve Vai)",
+        "start_minute": 753.7166666666667
+    },
+    {
+        "duree": 394,
+        "id": "aE-qRua89Ak",
+        "playlist": "CHARLY-RUSH",
+        "titre": "I Remember",
+        "start_minute": 759.5500000000001
+    },
+    {
+        "duree": 280,
+        "id": "CnJsQQWrmiM",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Sneaky Driver",
+        "start_minute": 766.1166666666668
+    },
+    {
+        "duree": 196,
+        "id": "-kCqSaspG7Q",
+        "playlist": "CHARLY-RUSH",
+        "titre": "Failing in a Cool Way",
+        "start_minute": 770.7833333333334
+    },
+    {
+        "duree": 253,
+        "id": "qkaf5sASfc8",
+        "playlist": "CHARLY-RUSH",
+        "titre": "春に揺られど君想う (feat. こぴ)",
+        "start_minute": 774.0500000000001
+    },
+    {
+        "duree": 203,
+        "id": "CEw-7cMnBDY",
+        "titre": "Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 780.0
+    },
+    {
+        "duree": 203,
+        "id": "AVz2FAp9odU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Skate",
+        "start_minute": 783.3833333333333
+    },
+    {
+        "duree": 228,
+        "id": "OWiVJMgms9E",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Voyager",
+        "start_minute": 786.7666666666667
+    },
+    {
+        "duree": 209,
+        "id": "n0GXk_T2zs8",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Training Season",
+        "start_minute": 790.5666666666666
+    },
+    {
+        "duree": 183,
+        "id": "wd9_QCH8Eq4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Don't Start Now",
+        "start_minute": 794.05
+    },
+    {
+        "duree": 197,
+        "id": "HwyvWnWX03c",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Dj Kayz Soirée Ft Mokobé,Dry,Dieselle",
+        "start_minute": 797.0999999999999
+    },
+    {
+        "duree": 185,
+        "id": "GFjJ11WZS2Y",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "You & Me",
+        "start_minute": 800.3833333333332
+    },
+    {
+        "duree": 288,
+        "id": "OLZga32cQNo",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "1979",
+        "start_minute": 803.4666666666666
+    },
+    {
+        "duree": 452,
+        "id": "NqThf-MpCjs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Gypsy Woman (She's Homeless) (La Da Dee La Da Da) (Basement Boy Strip To The Bone Mix)",
+        "start_minute": 808.2666666666665
+    },
+    {
+        "duree": 294,
+        "id": "1AVxBedMP4I",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Get Down On It",
+        "start_minute": 815.7999999999998
+    },
+    {
+        "duree": 166,
+        "id": "WdzRZt-srpY",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Deep Down",
+        "start_minute": 820.6999999999998
+    },
+    {
+        "duree": 328,
+        "id": "4qqeafI9kXM",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "LOST IN PARADISE (Jujutsu Kaisen Ending Theme Song)",
+        "start_minute": 823.4666666666665
+    },
+    {
+        "duree": 286,
+        "id": "ddZb5LIggzs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "The Grid Generation (feat. Louis Cole)",
+        "start_minute": 828.9333333333332
+    },
+    {
+        "duree": 307,
+        "id": "MR3uP7IYz44",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Lady (Hear Me Tonight)",
+        "start_minute": 833.6999999999998
+    },
+    {
+        "duree": 155,
+        "id": "6okxuiiHx2w",
+        "titre": "Breakbot - Baby I'm Yours (feat. Irfane) [Official Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 840.0
+    },
+    {
+        "duree": 188,
+        "id": "euYS4ldiMjc",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Bad Boy",
+        "start_minute": 842.5833333333334
+    },
+    {
+        "duree": 252,
+        "id": "m5MM_QSiYM8",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Ariane",
+        "start_minute": 845.7166666666667
+    },
+    {
+        "duree": 191,
+        "id": "JT0MFh1TqMI",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Leurs Bails",
+        "start_minute": 849.9166666666667
+    },
+    {
+        "duree": 210,
+        "id": "PHW3GmSPwzU",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "NIGHT DANCER (BIG Naughty Remix)",
+        "start_minute": 853.1
+    },
+    {
+        "duree": 244,
+        "id": "SunvrwYCvpU",
+        "playlist": "CHARLY-HOUSE",
+        "titre": "Cowboy Bebop - Tank! (Bass Cover) (Play Along Tabs In Video)",
+        "start_minute": 856.6
+    },
+    {
+        "duree": 150,
+        "id": "Wgw6tJ8yz9M",
+        "titre": "JAWNY - Honeypie (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 860.6666666666667
+    },
+    {
+        "duree": 167,
+        "id": "4g_bq5pRXYs",
+        "playlist": "Charly-RapPop",
+        "titre": "Tony Hawk",
+        "start_minute": 863.1666666666667
+    },
+    {
+        "duree": 157,
+        "id": "ZZ99I2Gw-V0",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Passionfruit",
+        "start_minute": 865.95
+    },
+    {
+        "duree": 298,
+        "id": "YVkUvmDQ3HY",
+        "playlist": "Charly-RapPop",
+        "titre": "Eminem - Without Me (Official Music Video)",
+        "start_minute": 868.5666666666667
+    },
+    {
+        "duree": 281,
+        "id": "EXWOJvlDwbU",
+        "titre": "Tom Misch - Disco Yes (feat. Poppy Ajudha) [Official Audio]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 873.5333333333334
     },
     {
         "duree": 100,
         "id": "qPdPjWkJZF8",
         "playlist": "Charly-JPOP",
         "titre": "DAN DA DAN - Opening | Otonoke de Creepy Nuts",
-        "start_minute": 1417.8166666666664
+        "start_minute": 878.2166666666667
     },
     {
-        "duree": 207,
-        "id": "ON0GouHEgRE",
-        "playlist": "Charly_Remix",
-        "titre": "Josman x Alpha Wann - Le château ambulant (Prod. HERB)",
-        "start_minute": 1419.4833333333331
-    },
-    {
-        "duree": 124,
-        "id": "Z49Ig-ssupM",
-        "playlist": "Charly_Remix",
-        "titre": "Donde Estas Yolanda X The Largest [CEEZY REMIX]",
-        "start_minute": 1422.9333333333332
-    },
-    {
-        "duree": 100,
-        "id": "Bw-5Lka7gPE",
-        "playlist": "Charly-JPOP",
-        "titre": "Mob Psycho 100 Opening | 99",
-        "start_minute": 1424.9999999999998
-    },
-    {
-        "duree": 123,
-        "id": "nzOaH0YGqb0",
-        "playlist": "Charly-JPOP",
-        "titre": "JoJo's Bizarre Adventure - Opening 4 v1 [4K 60FPS | Creditless | CC]",
-        "start_minute": 1426.6666666666665
-    },
-    {
-        "duree": 172,
-        "id": "hpjV962DLWs",
-        "titre": "Vladimir Cauchemar - Aulos (Official Music Video)",
+        "duree": 215,
+        "id": "XX4ciZy6Or0",
+        "titre": "Macaulkin & The Robots - Ces Soirées-Là (2024) [ft RobotSan, RobotAngele + Guests]",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1428.7166666666665
+        "start_minute": 879.8833333333333
+    },
+    {
+        "duree": 116,
+        "id": "T4dUEFxRBL0",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo's Bizarre Adventure - Opening 7 v1 [4K 60FPS | Creditless | CC]",
+        "start_minute": 883.4666666666667
+    },
+    {
+        "duree": 336,
+        "id": "Yk9mnW45Eqk",
+        "titre": "We're on the Move",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 885.4
+    },
+    {
+        "duree": 133,
+        "id": "XjNlP3LrFiY",
+        "playlist": "Charly-RapPop",
+        "titre": "bbno$ - gigolo (starring Ethan Nestor)",
+        "start_minute": 891.0
+    },
+    {
+        "duree": 147,
+        "id": "zNWO0dXoQhc",
+        "titre": "Lost & Dizzy",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 893.2166666666667
+    },
+    {
+        "duree": 254,
+        "id": "507d9xto6Og",
+        "playlist": "Charly-RapPop",
+        "titre": "Gringe - Qui dit mieux (feat. OrelSan, Vald, Suikon Blaz AD) [ENFANT LUNE]",
+        "start_minute": 895.6666666666667
+    },
+    {
+        "duree": 265,
+        "id": "FxzBvqY5PP0",
+        "titre": "Daft Punk - Digital Love (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 900.0
+    },
+    {
+        "duree": 255,
+        "id": "bgmMpT_m-t4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Part-Time Lover",
+        "start_minute": 904.4166666666666
+    },
+    {
+        "duree": 326,
+        "id": "0QqSZ5dZH7I",
+        "titre": "Oli Howe - Too Many Kicks (Official Audio)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 908.6666666666666
+    },
+    {
+        "duree": 249,
+        "id": "9RHFFeQ2tu4",
+        "titre": "Fever The Ghost - SOURCE (official music video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 914.0999999999999
+    },
+    {
+        "duree": 119,
+        "id": "aDgst6m_Stg",
+        "playlist": "Charly_Remix",
+        "titre": "JuL JCVD X I Follow rivers (Remix)",
+        "start_minute": 918.2499999999999
+    },
+    {
+        "duree": 206,
+        "id": "1KN4DhVXw-Y",
+        "playlist": "Charly-JPOP",
+        "titre": "yama - a.m.3:21 (Official Video)",
+        "start_minute": 920.2333333333332
+    },
+    {
+        "duree": 175,
+        "id": "2j8ALtAxOjE",
+        "playlist": "Charly-RapPop",
+        "titre": "bbno$ - come to brazil (official music video)",
+        "start_minute": 923.6666666666665
+    },
+    {
+        "duree": 236,
+        "id": "onhBN0qkUcE",
+        "playlist": "Charly-JPOP",
+        "titre": "花占い / Vaundy：MUSIC VIDEO",
+        "start_minute": 926.5833333333331
+    },
+    {
+        "duree": 309,
+        "id": "T_lC2O1oIew",
+        "playlist": "Charly-JPOP",
+        "titre": "竹内まりや -  Plastic Love (Official Music Video)",
+        "start_minute": 930.5166666666664
+    },
+    {
+        "duree": 206,
+        "id": "xC8fNydumzs",
+        "playlist": "Charly-RapPop",
+        "titre": "JuL - J'ai tout su // clip officiel // 2022",
+        "start_minute": 935.6666666666664
+    },
+    {
+        "duree": 181,
+        "id": "TnbSasaBnZ8",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Yu Yu Hakusho Romantic Theme Slowed & Reverbed (Remix)",
+        "start_minute": 939.0999999999997
+    },
+    {
+        "duree": 189,
+        "id": "tYdwajzKMck",
+        "playlist": "Charly-RapPop",
+        "titre": "Casseurs Flowters Infinity",
+        "start_minute": 942.1166666666663
+    },
+    {
+        "duree": 340,
+        "id": "09Ig2MeSmSQ",
+        "titre": "Tempos Futuros (feat. Jose Roberto Bertrami)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 945.2666666666663
+    },
+    {
+        "duree": 226,
+        "id": "r7-A9NqUjRI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "24K Magic",
+        "start_minute": 950.9333333333329
+    },
+    {
+        "duree": 230,
+        "id": "XPY1wCaVKI8",
+        "playlist": "Charly-RapPop",
+        "titre": "Ziak - Même pas un grincement  (Prod. Sam Tiba)",
+        "start_minute": 954.6999999999996
+    },
+    {
+        "duree": 235,
+        "id": "4JkIs37a2JE",
+        "titre": "Jamiroquai - Virtual Insanity (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 960.0
+    },
+    {
+        "duree": 204,
+        "id": "vTMSj7gDEGs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Sing a Song",
+        "start_minute": 963.9166666666666
+    },
+    {
+        "duree": 237,
+        "id": "fWlvNwdAoAc",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Cloud 9",
+        "start_minute": 967.3166666666666
+    },
+    {
+        "duree": 294,
+        "id": "Kr4EQDVETuA",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Billie Jean",
+        "start_minute": 971.2666666666667
+    },
+    {
+        "duree": 240,
+        "id": "qXI87eMP-bs",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Face to Face",
+        "start_minute": 976.1666666666666
+    },
+    {
+        "duree": 215,
+        "id": "3cKtSlsYVEU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "September",
+        "start_minute": 980.1666666666666
+    },
+    {
+        "duree": 238,
+        "id": "mEhYtnHQAUw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Say So",
+        "start_minute": 983.75
+    },
+    {
+        "duree": 174,
+        "id": "FlDuQhsxLms",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Candle Flame",
+        "start_minute": 987.7166666666667
+    },
+    {
+        "duree": 175,
+        "id": "kIft-LUHHVA",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Espresso",
+        "start_minute": 990.6166666666667
+    },
+    {
+        "duree": 240,
+        "id": "llPHj_3-BQU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Van La Ka Vante (Omar Mendez TD Fix)",
+        "start_minute": 993.5333333333333
+    },
+    {
+        "duree": 286,
+        "id": "0dOkB7Mhtt0",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Sticky Like Glue",
+        "start_minute": 997.5333333333333
+    },
+    {
+        "duree": 255,
+        "id": "1zwaZkOXXqw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Daddy ! Daddy ! Do !",
+        "start_minute": 1002.3
+    },
+    {
+        "duree": 338,
+        "id": "20OGm_-RebE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Hung Up",
+        "start_minute": 1006.55
+    },
+    {
+        "duree": 278,
+        "id": "bzb2He1C_UU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Get on the Floor",
+        "start_minute": 1012.1833333333333
+    },
+    {
+        "duree": 206,
+        "id": "sn0viUbmUVU",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Standing Next to You",
+        "start_minute": 1016.8166666666666
+    },
+    {
+        "duree": 264,
+        "id": "BC4zaaiXNMI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Love Dramatic",
+        "start_minute": 1020.2499999999999
+    },
+    {
+        "duree": 256,
+        "id": "5SXX-pWzOY8",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Conga",
+        "start_minute": 1024.6499999999999
+    },
+    {
+        "duree": 259,
+        "id": "zikd5BZycZQ",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Do It",
+        "start_minute": 1028.9166666666665
+    },
+    {
+        "duree": 170,
+        "id": "DiTd771WumE",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "APT.",
+        "start_minute": 1033.2333333333331
+    },
+    {
+        "duree": 248,
+        "id": "zYV6zZc_9jI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Give It To Me Baby",
+        "start_minute": 1036.0666666666664
+    },
+    {
+        "duree": 308,
+        "id": "QBTJf1txjC4",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Got to Be Real",
+        "start_minute": 1040.1999999999998
+    },
+    {
+        "duree": 221,
+        "id": "Z28jtA4Cjvw",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Assumptions",
+        "start_minute": 1045.3333333333333
     },
     {
         "duree": 301,
         "id": "Omnpu8mzX4c",
         "playlist": "CHARLY-GROOVE",
         "titre": "Give Me the Night",
-        "start_minute": 1431.583333333333
+        "start_minute": 1049.0166666666667
+    },
+    {
+        "duree": 379,
+        "id": "ndEhXtwoOmQ",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Daddy Sweet",
+        "start_minute": 1054.0333333333333
+    },
+    {
+        "duree": 283,
+        "id": "L1_PRGs6OYI",
+        "playlist": "CHARLY-GROOVE",
+        "titre": "Tondoho Mba",
+        "start_minute": 1060.35
+    },
+    {
+        "duree": 206,
+        "id": "LvaEv84Yaws",
+        "playlist": "Charly_Remix",
+        "titre": "KAARIS - CHARGÉ (BRAZILIAN PHONK REMIX)",
+        "start_minute": 1065.0666666666666
+    },
+    {
+        "duree": 169,
+        "id": "d2tnwgcBfoA",
+        "playlist": "Charly-RapPop",
+        "titre": "THEODORA - KONGOLESE SOUS BBL (FT. JEEZ SUAVE)",
+        "start_minute": 1068.5
+    },
+    {
+        "duree": 270,
+        "id": "4riRG2N0868",
+        "playlist": "Charly_Remix",
+        "titre": "Kaaris - Je BiBi (Phonk Remix)",
+        "start_minute": 1071.3166666666666
+    },
+    {
+        "duree": 222,
+        "id": "xk1c02v3U_U",
+        "playlist": "Charly-RapPop",
+        "titre": "Ziak - Fixette (Prod. Focus Beatz)",
+        "start_minute": 1075.8166666666666
+    },
+    {
+        "duree": 248,
+        "id": "VbD_kBJc_gI",
+        "titre": "David Bowie - Let's Dance (Official Video) [HD]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1080.0
+    },
+    {
+        "duree": 70,
+        "id": "uYXNN3jlgJ4",
+        "playlist": "Charly-RapPop",
+        "titre": "BLOKAMIL",
+        "start_minute": 1084.1333333333334
+    },
+    {
+        "duree": 167,
+        "id": "nmbiBVPe5bY",
+        "playlist": "Charly_K-pop",
+        "titre": "Strategy",
+        "start_minute": 1085.3000000000002
+    },
+    {
+        "duree": 244,
+        "id": "VZkRAp9XMIg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Cosmic Girl (Remastered 2013)",
+        "start_minute": 1088.0833333333335
     },
     {
         "duree": 212,
         "id": "hXzPxBhhmY8",
         "titre": "I DONT KNOW HOW BUT THEY FOUND ME - Do It All The Time",
         "playlist": "CHARLY-RADIO (77 titres)",
-        "start_minute": 1436.5999999999997
+        "start_minute": 1092.15
+    },
+    {
+        "duree": 196,
+        "id": "2Od7QCsyqkE",
+        "titre": "【MV】鈴木雅之『DADDY ! DADDY ! DO ! feat. 鈴木愛理』TVアニメ「かぐや様は告らせたい？～天才たちの恋愛頭脳戦～」OP主題歌",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1095.6833333333334
+    },
+    {
+        "duree": 97,
+        "id": "6BrHcmH3Gyk",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』6期第1クールノンクレジットオープニング映像／OPテーマ：「ひたむき」SUPER BEAVER／ヒロアカOP",
+        "start_minute": 1098.95
+    },
+    {
+        "duree": 180,
+        "id": "9U4-PgbN7eM",
+        "playlist": "CHARLY-LOVE",
+        "titre": "LUNCH",
+        "start_minute": 1100.5666666666666
+    },
+    {
+        "duree": 191,
+        "id": "xSHGzO4FzBA",
+        "playlist": "Charly-RapPop",
+        "titre": "Gambi - HÉ OH (Clip officiel)",
+        "start_minute": 1103.5666666666666
+    },
+    {
+        "duree": 265,
+        "id": "AW1ssZ5w79k",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Marechià",
+        "start_minute": 1106.75
+    },
+    {
+        "duree": 216,
+        "id": "GGhKPm18E48",
+        "playlist": "Charly-RapPop",
+        "titre": "Damso - Θ. Macarena (Clip Officiel)",
+        "start_minute": 1111.1666666666667
+    },
+    {
+        "duree": 340,
+        "id": "alZZeDr4wxY",
+        "titre": "Work It Out (feat. Antwaun Stanley)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1114.7666666666667
+    },
+    {
+        "duree": 223,
+        "id": "lIIyA3DAQXo",
+        "playlist": "Charly-RapPop",
+        "titre": "Changement [CLIP OFFICIEL]",
+        "start_minute": 1120.4333333333334
+    },
+    {
+        "duree": 90,
+        "id": "dFlDRhvM4L0",
+        "playlist": "Charly-JPOP",
+        "titre": "『チェンソーマン』ノンクレジットオープニング / CHAINSAW MAN  Opening│米津玄師 「KICK BACK」",
+        "start_minute": 1124.15
+    },
+    {
+        "duree": 202,
+        "id": "-e-Uqtuct04",
+        "playlist": "Charly-RapPop",
+        "titre": "JuL - Toi et moi // 2025",
+        "start_minute": 1125.65
+    },
+    {
+        "duree": 265,
+        "id": "dlFA0Zq1k2A",
+        "playlist": "Charly-JPOP",
+        "titre": "KANA-BOON - Silhouette",
+        "start_minute": 1129.0166666666667
+    },
+    {
+        "duree": 100,
+        "id": "2upuBiEiXDk",
+        "playlist": "Charly-JPOP",
+        "titre": "Naruto Shippuden Opening 3 | Blue Bird",
+        "start_minute": 1133.4333333333334
+    },
+    {
+        "duree": 244,
+        "id": "DZiaXEIQgkE",
+        "playlist": "Charly-RapPop",
+        "titre": "Salvatore Ganacci - Fight Dirty",
+        "start_minute": 1135.1000000000001
+    },
+    {
+        "duree": 151,
+        "id": "k9MikbjSR5M",
+        "playlist": "Charly-RapPop",
+        "titre": "Lorenzo - Fonsdé Toute La Night (Clip Officiel)",
+        "start_minute": 1139.1666666666667
+    },
+    {
+        "duree": 163,
+        "id": "g9bRUY3znnA",
+        "playlist": "Charly-RapPop",
+        "titre": "boom",
+        "start_minute": 1141.6833333333334
+    },
+    {
+        "duree": 367,
+        "id": "fe4EK4HSPkI",
+        "playlist": "Charly-RapPop",
+        "titre": "MGMT - Kids (Official HD Video)",
+        "start_minute": 1144.4
+    },
+    {
+        "duree": 207,
+        "id": "UkTjbkzLiFw",
+        "playlist": "Charly_Remix",
+        "titre": "KAARIS - BOUCHON DE LIEGE (BRAZILIAN PHONK REMIX)",
+        "start_minute": 1150.5166666666667
+    },
+    {
+        "duree": 127,
+        "id": "zG-sG8kGvbE",
+        "playlist": "Charly-RapPop",
+        "titre": "VALD - DANS LA RUE (le clip officiel)",
+        "start_minute": 1153.9666666666667
+    },
+    {
+        "duree": 412,
+        "id": "e6vOwy_1kwQ",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Kryé Mwen (Patchworks Remix)",
+        "start_minute": 1156.0833333333333
+    },
+    {
+        "duree": 185,
+        "id": "hrZduVyfoEs",
+        "titre": "Heavy, California",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1162.9499999999998
+    },
+    {
+        "duree": 632,
+        "id": "56Ju68VyKVk",
+        "titre": "BEAT FUNKTION - THE PLUNGE : Official Music Video",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1166.033333333333
+    },
+    {
+        "duree": 188,
+        "id": "5xyoPwocD08",
+        "titre": "Julien Granel - PLUS FORT",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1176.5666666666664
+    },
+    {
+        "duree": 100,
+        "id": "wbQEA_nxLaE",
+        "playlist": "Charly-JPOP",
+        "titre": "BOCCHI THE ROCK! - Ending | Distortion!!",
+        "start_minute": 1179.6999999999998
+    },
+    {
+        "duree": 278,
+        "id": "ZwAAqeOYLJE",
+        "titre": "Up Top",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1181.3666666666666
+    },
+    {
+        "duree": 203,
+        "id": "4p2J7y7R0Bk",
+        "playlist": "Charly-RapPop",
+        "titre": "Lorenzo - Damdamdeo (Clip Officiel)",
+        "start_minute": 1186.0
+    },
+    {
+        "duree": 233,
+        "id": "esqRBsVumrw",
+        "titre": "Jungle - Candle Flame (feat. Erick The Architect) (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1189.3833333333334
+    },
+    {
+        "duree": 96,
+        "id": "b3f6Shks9g4",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』ヒロアカ7期第2クールOPノンクレジット映像／OPテーマ：「カーテンコール」優里",
+        "start_minute": 1193.2666666666669
+    },
+    {
+        "duree": 263,
+        "id": "-pnBR0Ec7yc",
+        "titre": "catching a vibe with my 1973 Fender Rhodes Mark I",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1194.8666666666668
+    },
+    {
+        "duree": 203,
+        "id": "CEw-7cMnBDY",
+        "titre": "Bruno Mars, Anderson .Paak, Silk Sonic - Skate [Official Music Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1199.2500000000002
+    },
+    {
+        "duree": 137,
+        "id": "EiV1YxtbfcE",
+        "playlist": "Charly_Remix",
+        "titre": "Angèle - Saiyan [IA] (prod. Lnkhey)",
+        "start_minute": 1202.6333333333337
+    },
+    {
+        "duree": 109,
+        "id": "AQ3oyp4D6FY",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo's Bizarre Adventure - Opening 5 v1 [4K 60FPS | Creditless | CC]",
+        "start_minute": 1204.916666666667
+    },
+    {
+        "duree": 121,
+        "id": "qm1EaIp_s2w",
+        "playlist": "Charly-JPOP",
+        "titre": "Jujutsu Kaisen Season 3 OP / Opening 1 – 4K | 24FPS | Lyrics",
+        "start_minute": 1206.7333333333336
+    },
+    {
+        "duree": 213,
+        "id": "AxyFs_ZbniM",
+        "playlist": "Charly-RapPop",
+        "titre": "NeS - Le bruit et le silence (Clip officiel)",
+        "start_minute": 1208.7500000000002
+    },
+    {
+        "duree": 194,
+        "id": "BiVgcPhokbY",
+        "titre": "Conor Albert & ELSAS - Stuck In The Middle",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1212.3000000000002
+    },
+    {
+        "duree": 328,
+        "id": "xFYQQPAOz7Y",
+        "playlist": "Charly-RapPop",
+        "titre": "Eminem - Lose Yourself",
+        "start_minute": 1215.5333333333335
+    },
+    {
+        "duree": 102,
+        "id": "mhRj1b8hVMc",
+        "titre": "Dead Inside Shuffle - Louis Cole",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1221.0000000000002
+    },
+    {
+        "duree": 197,
+        "id": "Fz7D8u9mYGA",
+        "titre": "Breakbot - Get Lost (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1222.7000000000003
+    },
+    {
+        "duree": 94,
+        "id": "YEKboKtPx-w",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』ヒロアカ7期OPノンクレジット映像／OPテーマ：「誰我為」TK from 凛として時雨／My Heroacademia 7th season Opening Movie",
+        "start_minute": 1225.9833333333336
+    },
+    {
+        "duree": 243,
+        "id": "9i6tf3gIcfM",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Can't Get Enough Of Your Love, Babe",
+        "start_minute": 1227.5500000000002
+    },
+    {
+        "duree": 128,
+        "id": "tDgn9PwjTXw",
+        "playlist": "Charly_Remix",
+        "titre": "LA FÈVE - MAUVAIS PAYEUR - DISCO REMIX (Give Me The Night)",
+        "start_minute": 1231.6000000000001
+    },
+    {
+        "duree": 218,
+        "id": "qfgfY_gB1Eg",
+        "titre": "Space Cowboy (Remastered 2006)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1233.7333333333336
+    },
+    {
+        "duree": 100,
+        "id": "dlSbEP4V-gI",
+        "playlist": "Charly-JPOP",
+        "titre": "BOCCHI THE ROCK! - Opening | Seishun Complex",
+        "start_minute": 1237.366666666667
+    },
+    {
+        "duree": 261,
+        "id": "by4SYYWlhEs",
+        "playlist": "Charly-JPOP",
+        "titre": "夜に駆ける",
+        "start_minute": 1239.0333333333338
+    },
+    {
+        "duree": 213,
+        "id": "dQw4w9WgXcQ",
+        "titre": "Rick Astley - Never Gonna Give You Up (Official Video) (4K Remaster)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1243.3833333333337
+    },
+    {
+        "duree": 434,
+        "id": "dIlUbb4VtzY",
+        "titre": "Michael Jackson- Rock with you (The Reflex Revision)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1246.9333333333336
+    },
+    {
+        "duree": 204,
+        "id": "2gWTxnj0pJs",
+        "playlist": "Charly-JPOP",
+        "titre": "ENDEAVOR'S THEME (Endeavor vs Nomu Version) MHA S4 Ost",
+        "start_minute": 1254.166666666667
+    },
+    {
+        "duree": 113,
+        "id": "JGVUBSZ0SC4",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo ★ The JOJOLands OP 1 ★『Make It Rain』Original JoJo's Bizarre Adventure Part 9【ジョジョの奇妙な冒険】ジョジョランズ",
+        "start_minute": 1257.566666666667
+    },
+    {
+        "duree": 190,
+        "id": "4qWc_6u4V9M",
+        "playlist": "Charly-JPOP",
+        "titre": "ATARASHII GAKKO! - NAINAINAI (Official Video)",
+        "start_minute": 1259.4500000000005
+    },
+    {
+        "duree": 180,
+        "id": "GfLDnW4i31g",
+        "playlist": "Charly-RapPop",
+        "titre": "particule",
+        "start_minute": 1262.6166666666672
+    },
+    {
+        "duree": 289,
+        "id": "_ScM9pKlCfo",
+        "titre": "Daft Punk - Fragments of Time (Official Audio) ft. Todd Edwards",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1265.6166666666672
+    },
+    {
+        "duree": 272,
+        "id": "szy_L1-16wg",
+        "playlist": "Charly-JPOP",
+        "titre": "September",
+        "start_minute": 1270.4333333333338
+    },
+    {
+        "duree": 305,
+        "id": "UgS7vgquBvo",
+        "playlist": "Charly-JPOP",
+        "titre": "KANA-BOON 『ないものねだり』Music Video",
+        "start_minute": 1274.9666666666672
+    },
+    {
+        "duree": 249,
+        "id": "nlZDv8yuxCc",
+        "playlist": "CHARLY-LOVE",
+        "titre": "After Last Night (with Thundercat & Bootsy Collins)",
+        "start_minute": 1280.0500000000004
+    },
+    {
+        "duree": 326,
+        "id": "eK5ozrSgqeI",
+        "titre": "Passing Breeze from \"Outrun\" - Big Band Jazz version (The 8-Bit Big Band)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1284.2000000000005
+    },
+    {
+        "duree": 571,
+        "id": "MU1lAkDJwU4",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "You No Fit Touch Am (Medlar Remix)",
+        "start_minute": 1289.633333333334
+    },
+    {
+        "duree": 94,
+        "id": "l2j1qM7gx54",
+        "playlist": "Charly-JPOP",
+        "titre": "『僕のヒーローアカデミア』2期第2クールオープニング映像／OPテーマ：「空に歌えば」amazarashi／ヒロアカOP",
+        "start_minute": 1299.1500000000005
+    },
+    {
+        "duree": 273,
+        "id": "pz-wVSPU-8Q",
+        "playlist": "Charly-RapPop",
+        "titre": "Booba - Ecoute bien",
+        "start_minute": 1300.7166666666672
+    },
+    {
+        "duree": 222,
+        "id": "CmZDCflUYWk",
+        "playlist": "Charly_Remix",
+        "titre": "Alpha Wann x Romsii - Carrelage Italien  (Remix)",
+        "start_minute": 1305.266666666667
+    },
+    {
+        "duree": 100,
+        "id": "GwaRztMaoY0",
+        "titre": "JUJUTSU KAISEN Opening | Kaikai Kitan by Eve",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1308.9666666666672
+    },
+    {
+        "duree": 245,
+        "id": "h-Fzs4M_hAY",
+        "playlist": "Charly_Remix",
+        "titre": "GIVE ME LA PRISE CONNECTÉE",
+        "start_minute": 1310.633333333334
+    },
+    {
+        "duree": 171,
+        "id": "8obCzuhp3cg",
+        "playlist": "Charly-RapPop",
+        "titre": "Sundance",
+        "start_minute": 1314.7166666666672
+    },
+    {
+        "duree": 188,
+        "id": "361GUUBHH5Y",
+        "playlist": "Charly_Remix",
+        "titre": "Alpha Wann x Nujabes - ÇA VA ENSEMBLE II (remix)",
+        "start_minute": 1317.566666666667
+    },
+    {
+        "duree": 436,
+        "id": "0RXdd0pCJ9Q",
+        "titre": "DWIG - Orange Evening // Laut & Luise (LUL007)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1320.7000000000005
+    },
+    {
+        "duree": 222,
+        "id": "L0qBulm0hbg",
+        "playlist": "CHARLY-LOVE",
+        "titre": "I Keep Forgettin' (Every Time You're Near)",
+        "start_minute": 1327.9666666666672
+    },
+    {
+        "duree": 90,
+        "id": "faqmNf_fZlE",
+        "playlist": "Charly-JPOP",
+        "titre": "Hunter X Hunter Opening 1 | Departure!",
+        "start_minute": 1331.6666666666672
+    },
+    {
+        "duree": 156,
+        "id": "hPCZVkQKBBk",
+        "playlist": "Charly_Remix",
+        "titre": "KAARIS X VIDEO CLUB - FOUR (Remix)",
+        "start_minute": 1333.1666666666672
+    },
+    {
+        "duree": 155,
+        "id": "6okxuiiHx2w",
+        "titre": "Breakbot - Baby I'm Yours (feat. Irfane) [Official Video]",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1335.766666666667
+    },
+    {
+        "duree": 193,
+        "id": "mDFBTdToRmw",
+        "playlist": "Charly-RapPop",
+        "titre": "LITTLE BIG – SKIBIDI (official music video)",
+        "start_minute": 1338.3500000000004
+    },
+    {
+        "duree": 293,
+        "id": "jhOVibLEDhA",
+        "titre": "星野源 – 恋 (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1341.566666666667
+    },
+    {
+        "duree": 206,
+        "id": "X6MxGJ7qxck",
+        "playlist": "Charly-RapPop",
+        "titre": "JUL - WESH ALORS // CLIP OFFICIEL //2015",
+        "start_minute": 1346.4500000000005
+    },
+    {
+        "duree": 187,
+        "id": "0bkBRHRYtcQ",
+        "playlist": "Charly-RapPop",
+        "titre": "OrelSan - Soleil Levant (feat. SDM) [CLIP OFFICIEL]",
+        "start_minute": 1349.883333333334
+    },
+    {
+        "duree": 186,
+        "id": "H_rZMgS5nE4",
+        "playlist": "Charly-RapPop",
+        "titre": "Gambi - POPOPOP (Clip officiel)",
+        "start_minute": 1353.0000000000005
+    },
+    {
+        "duree": 248,
+        "id": "KId6eunoiWk",
+        "playlist": "Charly-JPOP",
+        "titre": "LiSA - Crossing Field",
+        "start_minute": 1356.1000000000004
+    },
+    {
+        "duree": 170,
+        "id": "ovvbCPqgX5E",
+        "playlist": "Charly_Remix",
+        "titre": "Ziak - I WILL SURVIVE  (Disco Remix)",
+        "start_minute": 1360.2333333333338
+    },
+    {
+        "duree": 100,
+        "id": "6riDJMI-Y8U",
+        "titre": "JUJUTSU KAISEN Ending | Lost in Paradise feat. AKLO",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1363.066666666667
+    },
+    {
+        "duree": 90,
+        "id": "210R0ozmLwg",
+        "titre": "TVアニメ「マッシュル-MASHLE-」第2期ノンクレジットOPムービー｜Creepy Nuts「Bling-Bang-Bang-Born」#BBBBダンス",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1364.7333333333338
+    },
+    {
+        "duree": 125,
+        "id": "BQ-v0bU9C5g",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo's Bizarre Adventure - Opening 9 v1 [4K 60FPS | Creditless | CC]",
+        "start_minute": 1366.2333333333338
+    },
+    {
+        "duree": 343,
+        "id": "QNYT9wVwQ8A",
+        "playlist": "Charly-JPOP",
+        "titre": "Miki Matsubara - Stay With Me HD (Club Mix)",
+        "start_minute": 1368.316666666667
+    },
+    {
+        "duree": 186,
+        "id": "944iJyGtpF4",
+        "playlist": "Charly_Remix",
+        "titre": "Ninho ft Leto, Ziak, The Supermen Lovers",
+        "start_minute": 1374.0333333333338
+    },
+    {
+        "duree": 251,
+        "id": "GGz3yRFCqUY",
+        "playlist": "Charly_Remix",
+        "titre": "Kaaris x Evangelion - Bouchon de liège (remix)",
+        "start_minute": 1377.1333333333337
+    },
+    {
+        "duree": 96,
+        "id": "AwXRPWmgLbU",
+        "playlist": "Charly-JPOP",
+        "titre": "TVアニメ『よふかしのうた』ノンクレジットOP 【Creepy Nuts「堕天」】| 毎週木曜日24時55分からフジテレビ\"ノイタミナ\"ほかにて放送中！",
+        "start_minute": 1381.316666666667
+    },
+    {
+        "duree": 201,
+        "id": "zl-S7piEp_U",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Wildest Dreams",
+        "start_minute": 1382.916666666667
+    },
+    {
+        "duree": 314,
+        "id": "Je932DsTvmo",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Sounds of Freedom",
+        "start_minute": 1386.2666666666669
+    },
+    {
+        "duree": 122,
+        "id": "Q_2cChbDg4I",
+        "playlist": "Charly-RapPop",
+        "titre": "DA7 - 777",
+        "start_minute": 1391.5000000000002
+    },
+    {
+        "duree": 167,
+        "id": "jj88i2vhdcg",
+        "playlist": "Charly-RapPop",
+        "titre": "Vladimir Cauchemar & Vald - Elévation (Official Music Video)",
+        "start_minute": 1393.5333333333335
+    },
+    {
+        "duree": 213,
+        "id": "xXWqZx0wuiM",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "El Niño (Mixed by Chris Goss)",
+        "start_minute": 1396.3166666666668
+    },
+    {
+        "duree": 141,
+        "id": "K6BRna4_bmg",
+        "titre": "bbno$ & Rich Brian - edamame (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1399.8666666666668
+    },
+    {
+        "duree": 200,
+        "id": "3xSb5Pm-ws8",
+        "playlist": "CHARLY-TROPIQUES",
+        "titre": "Lihue",
+        "start_minute": 1402.2166666666667
+    },
+    {
+        "duree": 224,
+        "id": "QG_yHZDlFqE",
+        "playlist": "Charly-RapPop",
+        "titre": "OrelSan - Du propre [CLIP OFFICIEL]",
+        "start_minute": 1405.55
+    },
+    {
+        "duree": 181,
+        "id": "VuCLlilNjkM",
+        "playlist": "Charly_Remix",
+        "titre": "NISKA ft. 1PLIKÉ140 - 140G 90's REMIX (Can't Touch This)",
+        "start_minute": 1409.2833333333333
+    },
+    {
+        "duree": 290,
+        "id": "_CL6n0FJZpk",
+        "playlist": "Charly-RapPop",
+        "titre": "Dr. Dre - Still D.R.E. ft. Snoop Dogg",
+        "start_minute": 1412.3
+    },
+    {
+        "duree": 315,
+        "id": "LzcWTjY3b8Q",
+        "titre": "King Gizzard & The Lizard Wizard - Interior People (Official Video)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1417.1333333333332
+    },
+    {
+        "duree": 123,
+        "id": "nzOaH0YGqb0",
+        "playlist": "Charly-JPOP",
+        "titre": "JoJo's Bizarre Adventure - Opening 4 v1 [4K 60FPS | Creditless | CC]",
+        "start_minute": 1422.3833333333332
+    },
+    {
+        "duree": 102,
+        "id": "AhNYcpN1pEU",
+        "playlist": "Charly-JPOP",
+        "titre": "DAN DA DAN Season 2 ED | Doukashiteru by WurtS | Netflix Anime",
+        "start_minute": 1424.4333333333332
+    },
+    {
+        "duree": 236,
+        "id": "aSugSGCC12I",
+        "playlist": "Charly-RapPop",
+        "titre": "Sabrina Carpenter - Manchild (Official Video)",
+        "start_minute": 1426.1333333333332
+    },
+    {
+        "duree": 217,
+        "id": "GgvMSSiZMi8",
+        "titre": "Cosmic Sans (feat. Tom Misch)",
+        "playlist": "CHARLY-RADIO (77 titres)",
+        "start_minute": 1430.0666666666666
+    },
+    {
+        "duree": 438,
+        "id": "6POZlJAZsok",
+        "playlist": "CHARLY-LOVE",
+        "titre": "Just the Two of Us (feat. Bill Withers)",
+        "start_minute": 1433.6833333333332
     }
 ]
